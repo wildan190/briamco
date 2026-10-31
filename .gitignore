@@ -47,3 +47,35 @@ web-briamco/playwright-report/
 
 # ── Docker local volumes (if bind-mounted) ─────────────────────────
 postgres_data/
+
+# ── Node / npm ─────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Build outputs ──────────────────────────────────────────────────
+web-briamco/dist/
+briamco-strapi/dist/
+briamco-strapi/build/
+briamco-strapi/.cache/
+briamco-strapi/.strapi/
+briamco-strapi/.strapi-client/
+briamco-strapi/.tmp/
+briamco-strapi/database/data.db
+
+# ── Logs ───────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Test / coverage ────────────────────────────────────────────────
+coverage/
+.nyc_output/
+web-briamco/test-results/
+web-briamco/playwright-report/
+
+# ── Docker local volumes (if bind-mounted) ─────────────────────────
+postgres_data/
+
+# ── Deploy archive (one-off artifact) ─────────────────────────────
+briamco-docker-deploy.tar.gz
