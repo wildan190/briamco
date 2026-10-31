@@ -1,0 +1,192 @@
+{
+  "BlogSection": {
+    "articles": [],
+    "text1": "BERITA & WAWASAN",
+    "text2": "Perspektif tentang ",
+    "text3": "Bisnis, Perubahan ",
+    "text4": "& Kepemimpinan",
+    "text5": "Jelajahi perspektif BRIAMCO tentang strategi, transformasi, teknologi, dan risiko.",
+    "text6": "Jelajahi Wawasan",
+    "text7": "Baca Selengkapnya"
+  },
+  "ContactSection": {
+    "src1": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
+    "alt2": "Diverse corporate leadership team reviewing business strategy on laptop",
+    "text3": "DISKUSIKAN PRIORITAS BISNIS ANDA",
+    "text4": "Siap Menghadapi Perubahan?",
+    "text5": "Mari Diskusikan Tujuan Bisnis Anda",
+    "text6": "Alamat",
+    "text7": "Detail kantor akan dikonfirmasi",
+    "text8": "Hubungi kami melalui formulir",
+    "text9": "Kontak",
+    "href10": "mailto:solutions@briamco.com",
+    "text11": "solutions@briamco.com",
+    "href12": "#contact",
+    "text13": "Gunakan formulir konsultasi",
+    "text14": "Permintaan Konsultasi Terkirim!",
+    "text15": "Terima kasih,",
+    "text16": ". Pesan Anda telah disimpan untuk ditinjau oleh tim BRIAMCO.",
+    "text17": "Kirim Permintaan Lain",
+    "text18": "Jadwalkan Konsultasi",
+    "text19": "Perspektif Terpadu",
+    "text20": "Peta Jalan Praktis",
+    "text21": "Prioritas Jelas",
+    "placeholder22": "Nama Anda",
+    "placeholder23": "Email",
+    "placeholder24": "Subjek",
+    "placeholder25": "Tulis Pesan"
+  },
+  "NavBar": {
+    "navLinks": [
+      {
+        "label": "Layanan",
+        "href": "/services",
+        "type": "services"
+      },
+      {
+        "label": "Tim",
+        "href": "/people",
+        "type": "link"
+      },
+      {
+        "label": "Wawasan",
+        "href": "/insight/blog",
+        "type": "link"
+      },
+      {
+        "label": "Berita",
+        "href": "/insight/news",
+        "type": "link"
+      },
+      {
+        "label": "Karier",
+        "href": "/careers",
+        "type": "link"
+      }
+    ],
+    "src1": "/logo.svg",
+    "alt2": "BRIAMCO Logo",
+    "text3": "EN",
+    "text4": "ID",
+    "text5": "English (EN)",
+    "text6": "Bahasa (ID)"
+  },
+  "ServicesSection": {
+    "tabs": [
+      {
+        "name": "Advisory",
+        "services": [
+          {
+            "title": "Strategi & Komunikasi",
+            "desc": "Selaraskan tujuan bisnis, reputasi, dan hubungan pemangku kepentingan melalui strategi yang jelas.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "Konsultasi Manajemen",
+            "desc": "Hadapi perubahan penting dengan analisis terarah, keselarasan organisasi, dan pelaksanaan yang praktis.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "Pendampingan Keuangan",
+            "desc": "Kaji pilihan, perkuat keputusan keuangan, dan lindungi nilai di setiap tahap bisnis.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "Pendampingan Risiko",
+            "desc": "Pahami ancaman yang berkembang dan bangun ketahanan operasional, teknologi, serta reputasi.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "Pendampingan SDM",
+            "desc": "Hubungkan kepemimpinan, desain organisasi, dan talenta dengan kebutuhan bisnis ke depan.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          }
+        ]
+      }
+    ],
+    "text1": "Jelajahi Layanan Kami",
+    "text2": "Solusi yang Kami Tawarkan",
+    "text3": "untuk Kebutuhan Anda",
+    "text4": "Advisori terpadu bagi pemimpin bisnis di bidang strategi, transformasi, keuangan, risiko, dan organisasi, didukung keahlian teknologi serta fokus pada pelaksanaan.",
+    "text5": "Lihat Semua Layanan",
+    "text6": "(",
+    "text7": ")",
+    "text8": "Detail Layanan"
+  },
+  "AdvisoryPage": {
+    "hero": "Mitra Strategis\nuntuk Bisnis Anda",
+    "subtitle": "Pendampingan terpadu bagi pemimpin bisnis di tengah perubahan.",
+    "statement": "Kami menyatukan keahlian strategis dan berbagai layanan untuk menjawab tantangan bisnis Anda yang paling kompleks.",
+    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+    "statementImage": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=2200&q=85",
+    "servicesTitle": "Layanan Kami",
+    "servicesIntro": "Keahlian khusus. Perspektif terpadu. Pendampingan sesuai prioritas bisnis Anda.",
+    "servicesCta": "Jelajahi seluruh layanan",
+    "peopleTitle": "Tim Kami",
+    "peopleIntro": "Pendampingan yang baik dimulai dari pemahaman yang mendalam. Kami bekerja bersama pemimpin bisnis untuk menyatukan perspektif dan mewujudkan keputusan menjadi tindakan.",
+    "peopleCta": "Kenali tim kami",
+    "careersTitle": "Bergabung dengan Kami",
+    "careersIntro": "Hadirkan perspektif Anda untuk tantangan yang berarti. Kami menghargai rasa ingin tahu, kolaborasi, dan semangat untuk membantu organisasi berkembang.",
+    "careersCta": "Mulai percakapan",
+    "careersImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2200&q=85",
+    "insightsTitle": "Gagasan untuk kemajuan bisnis",
+    "insightsCta": "Jelajahi wawasan",
+    "officeTitle": "Terhubung dengan BRIAMCO",
+    "officeIntro": "Percakapan adalah langkah pertama. Ceritakan prioritas Anda dan temukan keahlian yang tepat.",
+    "officeEmail": "solutions@briamco.com",
+    "firmTitle": "Tentang Kami",
+    "firmIntro": "BRIAMCO menyatukan strategi, komunikasi, keuangan, risiko, dan sumber daya manusia untuk membantu pemimpin bisnis memahami kompleksitas dan menentukan langkah ke depan.",
+    "people": [
+      {
+        "name": "Strategi & Komunikasi",
+        "role": "Kejelasan, reputasi, dan kepercayaan pemangku kepentingan",
+        "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85"
+      },
+      {
+        "name": "Pendampingan Bisnis",
+        "role": "Transformasi, ketahanan, dan nilai jangka panjang",
+        "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2200&q=85"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+name: briamco-production
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DATABASE_NAME:?required}
+      POSTGRES_USER: ${DATABASE_USER:?required}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:?required}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [database]
+  strapi:
+    build:
+      context: ./briamco-strapi
+      dockerfile: Dockerfile.production
+      args:
+        PUBLIC_URL: ${PUBLIC_URL:?required}
+        CLIENT_URL: ${PUBLIC_URL:?required}
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 1337
+      PUBLIC_URL: ${PUBLIC_URL}
+      CLIENT_URL: ${PUBLIC_URL}
+      TRUST_PROXY: "true"
+      DATABASE_HOST: postgres
+      DATABASE_PORT: 5432
+      DATABASE_NAME: ${DATABASE_NAME}
+      DATABASE_USER: ${DATABASE_USER}
+      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
+      DATABASE_SSL: "false"
+      APP_KEYS: ${APP_KEYS:?required}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET:?required}
+      API_TOKEN_SALT: ${API_TOKEN_SALT:?required}
+      TRANSFER_TOKEN_SALT: ${TRANSFER_TOKEN_SALT:?required}
+      JWT_SECRET: ${JWT_SECRET:?required}
+      STRAPI_TELEMETRY_DISABLED: "true"
+    depends_on:
+      postgres: {condition: service_healthy}
+    volumes:
+      - uploads:/app/public/uploads
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:1337/_health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      start_period: 120s
+      retries: 20
+    networks: [database, app]
+  frontend:
+    build:
+      context: ./web-briamco
+      args:
+        VITE_STRAPI_URL: ${PUBLIC_URL}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1/"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    networks: [app]
+  nginx:
+    image: nginx:stable-alpine
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./deploy/nginx/runtime:/etc/nginx/conf.d:ro
+      - certificates:/etc/letsencrypt:ro
+      - acme_webroot:/var/www/certbot:ro
+    command: ["/bin/sh", "-c", "(while sleep 6h; do nginx -t && nginx -s reload; done) & exec nginx -g 'daemon off;'"]
+    depends_on:
+      strapi: {condition: service_healthy}
+      frontend: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD-SHELL", "test -s /var/run/nginx.pid && kill -0 $$(cat /var/run/nginx.pid)"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    networks: [app]
+  certbot:
+    image: certbot/certbot:latest
+    profiles: [tools]
+    volumes:
+      - certificates:/etc/letsencrypt
+      - acme_webroot:/var/www/certbot
+    networks: [app]
+  certificate-renewal:
+    image: certbot/certbot:latest
+    restart: unless-stopped
+    entrypoint: /bin/sh
+    command: ["-c", "trap 'exit 0' TERM INT; while :; do certbot renew --webroot -w /var/www/certbot --quiet; sleep 12h & wait $$!; done"]
+    volumes:
+      - certificates:/etc/letsencrypt
+      - acme_webroot:/var/www/certbot
+    networks: [app]
+volumes:
+  postgres_data:
+  uploads:
+  certificates:
+  acme_webroot:
+networks:
+  app:
+  database:
+    internal: true

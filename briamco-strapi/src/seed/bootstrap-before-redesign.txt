@@ -1,0 +1,68 @@
+const seed = require('./seed/sections.json');
+
+module.exports = {
+  register() {},
+  async bootstrap({ strapi }) {
+    const inquiryType = strapi.contentTypes['api::inquiry.inquiry'];
+    const contentTypes = strapi.plugin('content-manager').service('content-types');
+    const configuration = await contentTypes.findConfiguration(inquiryType);
+    if (!configuration.layouts.list.includes('status')) {
+      await contentTypes.updateConfiguration(inquiryType, {
+        ...configuration,
+        layouts: { ...configuration.layouts, list: [...configuration.layouts.list, 'status'] },
+        metadatas: { ...configuration.metadatas, status: {
+          ...configuration.metadatas.status,
+          list: { ...configuration.metadatas.status.list, label: 'Status' },
+        } },
+      });
+    }
+    await require('./seed/locales').prepare(strapi);
+    if (process.env.SEED_WEBSITE_CONTENT === 'false') return;
+    for (const [slug, content] of Object.entries(seed)) {
+      const existing = await strapi.documents('api::website-section.website-section').findFirst({ filters: { slug } });
+      if (!existing) {
+        await strapi.documents('api::website-section.website-section').create({
+          data: { slug, title: slug.replace(/Section$/, '').replace(/([a-z])([A-Z])/g, '$1 $2'), content },
+          status: 'published',
+        });
+      }
+    }
+    // Existing articles predate the Blog/News discriminator. Preserve all other editorial fields.
+    await strapi.db.connection('articles').whereNull('type').update({ type: 'blog' });
+    const blog = seed.BlogSection.articles;
+    for (const post of blog) {
+      const slug = post.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
+      const existing = await strapi.documents('api::article.article').findFirst({ filters: { slug } });
+      if (!existing) await strapi.documents('api::article.article').create({ data: {
+        title: post.title, slug, author: post.author, description: post.excerpt,
+        content: post.excerpt + '\n\nLeadership teams benefit from a clear assessment of opportunities, practical priorities and a measurable plan for implementation. BRIAMCO connects strategic thinking with disciplined execution to help organizations navigate change.',
+        type: 'blog', category: post.badge, imageUrl: post.img, imageAlt: post.alt, date: '2026-10-10',
+      }, status: 'published' });
+    }
+    let order = 0;
+    for (const tab of seed.ServicesSection.tabs) {
+      for (const service of tab.services) {
+        const slug = service.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
+        const existing = await strapi.documents('api::service.service').findFirst({ filters: { slug } });
+        if (!existing) await strapi.documents('api::service.service').create({ data: {
+          title: service.title, slug, group: tab.name, description: service.desc,
+          features: service.features, imageUrl: service.photo1, imageAlt: service.img1, order,
+          content: '## Understanding your priorities\n\n' + service.desc + '\n\n## From assessment to execution\n\nWe begin by understanding your business context, stakeholder needs and desired outcomes. Together, we identify priorities and develop a practical roadmap with clear responsibilities.\n\n## What an engagement can include\n\n' + service.features.map(feature => '- ' + feature).join('\n') + '\n\n## Discuss your next step\n\nContact BRIAMCO to discuss scope, objectives and how this service can support your organization.',
+        }, status: 'published' });
+        order++;
+      }
+    }
+    const newsSlug = 'briamco-insights-strategy-technology-and-execution';
+    const existingNews = await strapi.documents('api::article.article').findFirst({ filters: { slug: newsSlug } });
+    if (!existingNews) await strapi.documents('api::article.article').create({ data: {
+      title: 'BRIAMCO Insights: Strategy, Technology and Execution', slug: newsSlug,
+      type: 'news', category: 'Company News', author: 'BRIAMCO Editorial', date: '2026-10-10',
+      description: 'Explore BRIAMCO’s editorial space for business perspectives and company updates.',
+      content: '## Welcome to BRIAMCO Insight\n\nOur Insight hub brings together Blog and News in one place. Blog articles explore strategy, business transformation, technology and risk. News provides a space for updates from BRIAMCO.\n\nEach article has its own page and can be maintained by our editorial team through the CMS. Explore the latest perspectives or contact us to discuss your business priorities.',
+      imageUrl: seed.BlogSection.articles[0].img, imageAlt: 'A team discussing business priorities',
+    }, status: 'published' });
+    await require('./seed/locales').seed(strapi);
+    await require('./seed/partners')(strapi);
+    strapi.log.info('Website pages, services and insights ready; existing editorial content preserved.');
+  },
+};

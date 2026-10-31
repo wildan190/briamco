@@ -1,0 +1,87 @@
+{
+  "heroTitle": "Join Our Team",
+  "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2200&q=85",
+  "overviewTab": "Overview",
+  "purposeTab": "Our Purpose & Values",
+  "benefitsTab": "Life at BRIAMCO",
+  "positionsTab": "Open Positions",
+  "overviewTitle": "What\u2019s it like to work at BRIAMCO?",
+  "overviewLead": "Bring your perspective to the business opportunities and challenges that matter.",
+  "overviewBody": "We connect strategic thinking with practical execution. Our work brings together different disciplines, perspectives and experiences to help organizations move forward.",
+  "overviewBody2": "Explore our culture and discover where your curiosity, skills and ambition could make a difference.",
+  "positionsCta": "Explore Open Positions",
+  "cultureLabel": "Our working philosophy",
+  "cultureQuote": "The strongest ideas emerge when people listen carefully, challenge thoughtfully and work together with a shared sense of purpose.",
+  "cultureAuthor": "BRIAMCO",
+  "cultureRole": "Perspective. Partnership. Progress.",
+  "purposeTitle": "Our Purpose",
+  "purposeText": "Partnering with organizations to turn complex challenges into meaningful progress.",
+  "valuesTitle": "Our Values",
+  "bannerTitle": "Find the career opportunity that is right for you.",
+  "bannerBody": "Bring your curiosity and collaborative mindset. Explore the opportunities below and find a role aligned with your experience and aspirations.",
+  "bannerImage": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85",
+  "benefitsTitle": "Life at BRIAMCO",
+  "benefitsIntro": "An environment shaped around learning, collaboration and meaningful work.",
+  "positionsTitle": "Open Positions",
+  "searchPlaceholder": "Search Open Positions",
+  "allSegments": "All Business Segments",
+  "allLocations": "All Locations",
+  "emptyTitle": "No open positions at the moment",
+  "emptyText": "Please check back for new opportunities or contact us to express your interest.",
+  "noResults": "No positions match your search. Try another keyword or reset the filters.",
+  "resetLabel": "Reset filters",
+  "interestLabel": "Express your interest",
+  "applyLabel": "Apply for this position",
+  "values": [
+    {
+      "title": "Client Focus",
+      "description": "Understand the context, ask better questions and focus on outcomes that matter."
+    },
+    {
+      "title": "Growing Together",
+      "description": "Share knowledge, learn from experience and help others develop their capabilities."
+    },
+    {
+      "title": "Collaboration",
+      "description": "Connect disciplines and perspectives to build a stronger response to complex challenges."
+    },
+    {
+      "title": "Inclusion & Initiative",
+      "description": "Listen to different experiences and make space for ideas and constructive action."
+    },
+    {
+      "title": "Openness & Trust",
+      "description": "Speak thoughtfully, listen actively and build confidence through honest conversations."
+    },
+    {
+      "title": "Integrity & Accountability",
+      "description": "Take responsibility for decisions and treat colleagues and stakeholders with respect."
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Learning & Development",
+      "description": "Build your capabilities through new perspectives, practical challenges and shared learning."
+    },
+    {
+      "title": "Collaborative Teams",
+      "description": "Work alongside colleagues who bring complementary experience and ways of thinking."
+    },
+    {
+      "title": "Meaningful Work",
+      "description": "Connect your contribution with the priorities and progress of the organizations we support."
+    },
+    {
+      "title": "Leadership Mindset",
+      "description": "Develop the judgment to ask useful questions and take ownership of your work."
+    },
+    {
+      "title": "Diverse Perspectives",
+      "description": "Learn from people with different backgrounds and approaches to problem solving."
+    },
+    {
+      "title": "Professional Growth",
+      "description": "Explore opportunities to deepen your expertise as the business and your role develop."
+    }
+  ]
+}

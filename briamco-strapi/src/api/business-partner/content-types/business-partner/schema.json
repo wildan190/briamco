@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_partners",
+  "info": {
+    "singularName": "business-partner",
+    "pluralName": "business-partners",
+    "displayName": "Business Partner",
+    "description": "Client and business partner logos. Existing example logos can be replaced with verified partner brands."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "config": {
+    "layouts": {
+      "list": [
+        "name",
+        "visible",
+        "order",
+        "isExample"
+      ]
+    }
+  },
+  "attributes": {
+    "key": {
+      "type": "string",
+      "unique": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "logoAlt": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    },
+    "isExample": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

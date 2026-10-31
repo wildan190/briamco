@@ -1,0 +1,585 @@
+{
+  "AboutSection": {
+    "points": [
+      {
+        "title": "Integrated Advice",
+        "desc": "Connect strategy, communications, technology and operational priorities through a shared view of the business."
+      },
+      {
+        "title": "Practical Execution",
+        "desc": "Translate decisions into clear workstreams, accountable teams and measurable progress."
+      },
+      {
+        "title": "Collaborative Perspective",
+        "desc": "Work alongside your organization to understand the wider landscape and build capabilities for the future."
+      }
+    ],
+    "src1": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80",
+    "alt2": "Software engineering team collaborating on distributed systems",
+    "src3": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=600&q=80",
+    "alt4": "Tech architects reviewing system design diagrams",
+    "text5": "360°",
+    "text6": "Business Perspective",
+    "text7": "About BRIAMCO",
+    "text8": "An Integrated Perspective",
+    "text9": "on Your Business Priorities",
+    "text10": "BRIAMCO connects strategic advice with technology expertise to help organizations make informed decisions and turn complex challenges into actionable plans. We work alongside leadership teams, aligning business priorities, people and execution.",
+    "text11": "Build With Us"
+  },
+  "BlogSection": {
+    "articles": [
+      {
+        "id": 1,
+        "badge": "Leadership & Strategy",
+        "author": "BRIAMCO Editorial",
+        "title": "Leading Through Uncertainty: Connecting Strategy with Execution",
+        "excerpt": "A practical perspective on aligning leadership, stakeholders and operational priorities when the business environment changes.",
+        "day": "10",
+        "month": "Oct",
+        "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=700&q=80",
+        "alt": "Software engineers reviewing cloud architecture diagrams",
+        "slug": "leading-through-uncertainty-connecting-strategy-with-execution",
+        "type": "blog"
+      },
+      {
+        "id": 2,
+        "badge": "Transformation & Risk",
+        "author": "BRIAMCO Editorial",
+        "title": "Enterprise AI: Balancing Opportunity, Governance and Business Value",
+        "excerpt": "An introduction to assessing AI opportunities alongside governance, organizational readiness and risk.",
+        "day": "10",
+        "month": "Oct",
+        "img": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=700&q=80",
+        "alt": "Data scientists discussing machine learning pipeline benchmarks",
+        "slug": "enterprise-ai-balancing-opportunity-governance-and-business-value",
+        "type": "blog"
+      }
+    ],
+    "text1": "NEWS & INSIGHTS",
+    "text2": "Perspectives on ",
+    "text3": "Business, Change ",
+    "text4": "& Leadership",
+    "text5": "Explore original BRIAMCO perspectives on strategy, transformation, technology and risk.",
+    "text6": "Explore Insights",
+    "text7": "Read More"
+  },
+  "ContactSection": {
+    "src1": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
+    "alt2": "Diverse corporate leadership team reviewing business strategy on laptop",
+    "text3": "DISCUSS YOUR BUSINESS PRIORITIES",
+    "text4": "Ready to Navigate Change?",
+    "text5": "Let’s Discuss Your Business Goals",
+    "text6": "Address",
+    "text7": "Office details to be confirmed",
+    "text8": "Contact us using the form",
+    "text9": "Contact",
+    "href10": "mailto:solutions@briamco.com",
+    "text11": "solutions@briamco.com",
+    "href12": "#contact",
+    "text13": "Use the consultation form",
+    "text14": "Consultation Requested!",
+    "text15": "Thank you,",
+    "text16": ". Your inquiry has been saved for the BRIAMCO team to review.",
+    "text17": "Send Another Request",
+    "text18": "Schedule a Consultation",
+    "text19": "Integrated Perspective",
+    "text20": "Practical Roadmap",
+    "text21": "Clear Priorities",
+    "placeholder22": "Your Name",
+    "placeholder23": "Email",
+    "placeholder24": "Subject",
+    "placeholder25": "Write a Message"
+  },
+  "CtaBanner": {
+    "stats": [
+      {
+        "value": "01",
+        "label": "Strategy — Connect business ambition with clear priorities and practical decisions.",
+        "icon": "folder"
+      },
+      {
+        "value": "02",
+        "label": "Technology — Build digital foundations that support transformation and growth.",
+        "icon": "star"
+      },
+      {
+        "value": "03",
+        "label": "Resilience — Understand risk across operations, reputation and stakeholders.",
+        "icon": "briefcase"
+      },
+      {
+        "value": "04",
+        "label": "People — Put leadership and organizational capability at the center of change.",
+        "icon": "building"
+      }
+    ],
+    "text1": "Ready to Transform?",
+    "text2": "Building Resilient Businesses",
+    "text3": "for the Future",
+    "text4": "Connect strategic thinking with practical execution. Discuss how BRIAMCO can support your next business priority.",
+    "text5": "Schedule Consultation",
+    "text6": "Explore Solutions"
+  },
+  "FaqSection": {
+    "faqs": [
+      {
+        "q": "What does BRIAMCO help organizations achieve?",
+        "a": "We help leadership teams clarify strategic priorities, plan transformation and connect advice with practical execution."
+      },
+      {
+        "q": "How do you begin an engagement?",
+        "a": "We discuss your business objectives, then agree the scope, deliverables and responsibilities before work begins."
+      },
+      {
+        "q": "Can services be combined?",
+        "a": "An engagement can bring together strategy, communications, technology and organizational priorities according to your needs."
+      },
+      {
+        "q": "How is sensitive information handled?",
+        "a": "Confidentiality, access and information handling requirements are agreed as part of the engagement scope."
+      },
+      {
+        "q": "How can we contact the team?",
+        "a": "Use the consultation form to share your priorities. Your message is saved for the team to review."
+      }
+    ],
+    "text1": "Got Questions?",
+    "text2": "Frequently Asked Questions",
+    "text3": "Learn how BRIAMCO connects strategic advice with technology and practical execution."
+  },
+  "FooterSection": {
+    "footerLinks": {
+      "Services": [
+        "Strategy & Communications",
+        "Management Consulting",
+        "Financial Advisory",
+        "Risk & Resilience",
+        "People & Organization"
+      ],
+      "Company": [
+        "Our Firm",
+        "Our People",
+        "Engagement Perspectives",
+        "News & Insights",
+        "Contact"
+      ],
+      "Explore": [
+        "Business Transformation",
+        "Digital Strategy",
+        "Leadership",
+        "Organizational Readiness",
+        "Discuss Your Priorities"
+      ]
+    },
+    "src1": "/logo.svg",
+    "alt2": "BRIAMCO Logo",
+    "text3": "Connecting strategy, technology and practical execution to help organizations navigate change and build lasting value.",
+    "text4": "©",
+    "text5": "BRIAMCO. All rights reserved.",
+    "text6": "Privacy Policy",
+    "text7": "Terms of Service",
+    "text8": "Cookie Policy"
+  },
+  "HeroSection": {
+    "marqueeItems": [
+      "Strategy & Communications",
+      "Management & Transformation",
+      "Financial Advisory",
+      "Risk & Resilience",
+      "People & Organization"
+    ],
+    "stats": [
+      {
+        "value": "01",
+        "label": "Strategy — Connect business ambition with clear priorities and practical decisions."
+      },
+      {
+        "value": "02",
+        "label": "Technology — Build digital foundations that support transformation and growth."
+      },
+      {
+        "value": "03",
+        "label": "Resilience — Understand risk across operations, reputation and stakeholders."
+      },
+      {
+        "value": "04",
+        "label": "People — Put leadership and organizational capability at the center of change."
+      }
+    ],
+    "href1": "mailto:hello@briamco.com",
+    "text2": "hello@briamco.com",
+    "text3": "Contact BRIAMCO for office details",
+    "text4": "Mon–Fri, 08:00–17:00 WIB",
+    "text5": "STRATEGY, TECHNOLOGY & BUSINESS ADVISORY",
+    "text6": "Helping Leaders Navigate Change",
+    "text7": "and Build Lasting Value",
+    "text8": "BRIAMCO brings strategy, technology and practical execution together to help business leaders navigate complexity, strengthen resilience and pursue sustainable growth.",
+    "text9": "Discuss Your Business Priorities",
+    "text10": "JL",
+    "text11": "MS",
+    "text12": "AK",
+    "text13": "Strategy connected to practical execution",
+    "src14": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1800&q=80",
+    "alt15": "Enterprise engineers and technology leads collaborating in modern development lab"
+  },
+  "NavBar": {
+    "navLinks": [
+      {
+        "label": "Home",
+        "href": "/",
+        "type": "link"
+      },
+      {
+        "label": "About",
+        "href": "/about",
+        "type": "link"
+      },
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "services"
+      },
+      {
+        "label": "Solutions",
+        "href": "/solutions",
+        "type": "link"
+      },
+      {
+        "label": "Insight",
+        "href": "/insight",
+        "type": "link"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "type": "link"
+      }
+    ],
+    "src1": "/logo.svg",
+    "alt2": "BRIAMCO Logo",
+    "text3": "EN",
+    "text4": "ID",
+    "text5": "English (EN)",
+    "text6": "Bahasa (ID)"
+  },
+  "ServicesSection": {
+    "tabs": [
+      {
+        "category": "Enterprise",
+        "name": "Strategy & Communications",
+        "count": "03",
+        "services": [
+          {
+            "icon": "settings",
+            "title": "Corporate Strategy",
+            "desc": "Bring an integrated perspective to corporate strategy. Align leadership decisions with stakeholder needs, practical delivery and long-term business value.",
+            "features": [
+              "Assess priorities and the business context",
+              "Develop an actionable roadmap",
+              "Support implementation and review progress"
+            ],
+            "img1": "Cloud architects designing distributed infrastructure roadmap",
+            "img2": "DevOps team managing multi-region server cluster monitoring",
+            "photo1": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "bar-chart",
+            "title": "Stakeholder Communications",
+            "desc": "Bring an integrated perspective to stakeholder communications. Align leadership decisions with stakeholder needs, practical delivery and long-term business value.",
+            "features": [
+              "Assess priorities and the business context",
+              "Develop an actionable roadmap",
+              "Support implementation and review progress"
+            ],
+            "img1": "Engineers configuring automated deployment pipelines",
+            "img2": "Site reliability engineering team monitoring production telemetry",
+            "photo1": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "target",
+            "title": "Reputation & Change",
+            "desc": "Bring an integrated perspective to reputation & change. Align leadership decisions with stakeholder needs, practical delivery and long-term business value.",
+            "features": [
+              "Assess priorities and the business context",
+              "Develop an actionable roadmap",
+              "Support implementation and review progress"
+            ],
+            "img1": "Cybersecurity analysts reviewing threat detection dashboard",
+            "img2": "Security engineers conducting automated penetration tests",
+            "photo1": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=700&q=80"
+          }
+        ]
+      },
+      {
+        "category": "Scaleups",
+        "name": "Management Consulting",
+        "count": "04",
+        "services": [
+          {
+            "icon": "code",
+            "title": "Business Transformation",
+            "desc": "Bring an integrated perspective to business transformation. Align leadership decisions with stakeholder needs, practical delivery and long-term business value.",
+            "features": [
+              "Assess priorities and the business context",
+              "Develop an actionable roadmap",
+              "Support implementation and review progress"
+            ],
+            "img1": "Software engineering team collaborating on distributed systems",
+            "img2": "Full-stack developers reviewing clean code and testing suites",
+            "photo1": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "smartphone",
+            "title": "Operating Model Design",
+            "desc": "Bring an integrated perspective to operating model design. Align leadership decisions with stakeholder needs, practical delivery and long-term business value.",
+            "features": [
+              "Assess priorities and the business context",
+              "Develop an actionable roadmap",
+              "Support implementation and review progress"
+            ],
+            "img1": "Mobile developers testing interactive iOS and Android UI",
+            "img2": "App engineers inspecting real-time mobile performance diagnostics",
+            "photo1": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "database",
+            "title": "Performance Improvement",
+            "desc": "Bring an integrated perspective to performance improvement. Align leadership decisions with stakeholder needs, practical delivery and long-term business value.",
+            "features": [
+              "Assess priorities and the business context",
+              "Develop an actionable roadmap",
+              "Support implementation and review progress"
+            ],
+            "img1": "System architects diagramming database modernization paths",
+            "img2": "Senior engineers performing zero-downtime database cutover",
+            "photo1": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "settings",
+            "title": "Digital Strategy",
+            "desc": "Bring an integrated perspective to digital strategy. Align leadership decisions with stakeholder needs, practical delivery and long-term business value.",
+            "features": [
+              "Assess priorities and the business context",
+              "Develop an actionable roadmap",
+              "Support implementation and review progress"
+            ],
+            "img1": "Integration developers debugging webhook stream monitoring",
+            "img2": "Cloud architects inspecting enterprise API gateway traffic",
+            "photo1": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=700&q=80"
+          }
+        ]
+      },
+      {
+        "category": "Enterprise",
+        "name": "Financial & Risk Advisory",
+        "count": "04",
+        "services": [
+          {
+            "icon": "brain",
+            "title": "Transaction Readiness",
+            "desc": "Bring an integrated perspective to transaction readiness. Align leadership decisions with stakeholder needs, practical delivery and long-term business value.",
+            "features": [
+              "Assess priorities and the business context",
+              "Develop an actionable roadmap",
+              "Support implementation and review progress"
+            ],
+            "img1": "AI researchers evaluating LLM prompt orchestration pipelines",
+            "img2": "Machine learning engineers running vector search benchmarks",
+            "photo1": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "bar-chart",
+            "title": "Financial Planning",
+            "desc": "Bring an integrated perspective to financial planning. Align leadership decisions with stakeholder needs, practical delivery and long-term business value.",
+            "features": [
+              "Assess priorities and the business context",
+              "Develop an actionable roadmap",
+              "Support implementation and review progress"
+            ],
+            "img1": "Data engineers configuring real-time ETL streaming pipelines",
+            "img2": "Analytics team reviewing Snowflake warehouse query performance",
+            "photo1": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "target",
+            "title": "Risk & Resilience",
+            "desc": "Bring an integrated perspective to risk & resilience. Align leadership decisions with stakeholder needs, practical delivery and long-term business value.",
+            "features": [
+              "Assess priorities and the business context",
+              "Develop an actionable roadmap",
+              "Support implementation and review progress"
+            ],
+            "img1": "Data scientists validating predictive model precision curves",
+            "img2": "MLOps engineer deploying containerized model inference workers",
+            "photo1": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "shield",
+            "title": "People & Organization",
+            "desc": "Bring an integrated perspective to people & organization. Align leadership decisions with stakeholder needs, practical delivery and long-term business value.",
+            "features": [
+              "Assess priorities and the business context",
+              "Develop an actionable roadmap",
+              "Support implementation and review progress"
+            ],
+            "img1": "Data governance officers reviewing data lineage catalog",
+            "img2": "Compliance team reviewing automated privacy audit logs",
+            "photo1": "https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=700&q=80"
+          }
+        ]
+      }
+    ],
+    "text1": "Explore Our Service",
+    "text2": "What We are Offering",
+    "text3": "to Our Potential Client",
+    "text4": "Integrated advice for business leaders across strategy, transformation, finance, risk and organization, supported by technology expertise and a focus on execution.",
+    "text5": "View All Services",
+    "text6": "(",
+    "text7": ")",
+    "text8": "Service Details"
+  },
+  "SolutionsSection": {
+    "solutions": [
+      {
+        "label": "Startups & Scaleups",
+        "title": "Growth Strategy & Business Readiness",
+        "desc": "Align your growth priorities, market positioning and organizational capabilities with a practical plan for execution.",
+        "features": [
+          "Clarify strategic priorities",
+          "Assess organizational readiness",
+          "Build an actionable roadmap",
+          "Review progress and adapt"
+        ],
+        "img": "Startup engineering team pairing on new code releases",
+        "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+      },
+      {
+        "label": "Enterprise Scale",
+        "title": "Enterprise Transformation & Resilience",
+        "desc": "Navigate complex change by connecting strategy, operating models, technology and risk awareness.",
+        "features": [
+          "Clarify strategic priorities",
+          "Assess organizational readiness",
+          "Build an actionable roadmap",
+          "Review progress and adapt"
+        ],
+        "img": "Enterprise systems engineers monitoring distributed cloud metrics",
+        "photo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80"
+      }
+    ],
+    "text1": "Tailored Solutions",
+    "text2": "Advice for Every Stage of Change",
+    "text3": "Connect business priorities with an actionable roadmap, whether you are building for growth or transforming an established organization.",
+    "text4": "Get Started"
+  },
+  "TeamSection": {
+    "team": [
+      {
+        "name": "Strategy Advisor",
+        "role": "Profile to be confirmed",
+        "initials": "SA",
+        "color": "#0d1b2a",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Transformation Advisor",
+        "role": "Profile to be confirmed",
+        "initials": "TA",
+        "color": "#1e3a5f",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Risk Advisor",
+        "role": "Profile to be confirmed",
+        "initials": "RA",
+        "color": "#2563eb",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Technology Advisor",
+        "role": "Profile to be confirmed",
+        "initials": "DA",
+        "color": "#1a2e44",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "text1": "Our People",
+    "text2": "Meet Our Advisory Perspectives",
+    "text3": "Illustrative advisory profiles show how complementary perspectives can support your priorities. Confirmed team biographies can be maintained here through the CMS.",
+    "text4": "in",
+    "text5": "@"
+  },
+  "TestimonialsSection": {
+    "testimonials": [
+      {
+        "name": "Illustrative engagement 1",
+        "role": "Editorial example — not a client testimonial",
+        "text": "Align leadership around a clear strategy and practical roadmap.",
+        "rating": 5,
+        "initials": "SM",
+        "color": "#2563eb"
+      },
+      {
+        "name": "Illustrative engagement 2",
+        "role": "Editorial example — not a client testimonial",
+        "text": "Connect transformation with an operating model that supports accountable delivery.",
+        "rating": 5,
+        "initials": "DC",
+        "color": "#1d4ed8"
+      },
+      {
+        "name": "Illustrative engagement 3",
+        "role": "Editorial example — not a client testimonial",
+        "text": "Assess uncertainty across operations and stakeholders to strengthen resilience.",
+        "rating": 5,
+        "initials": "AH",
+        "color": "#0d1b2a"
+      },
+      {
+        "name": "Illustrative engagement 4",
+        "role": "Editorial example — not a client testimonial",
+        "text": "Build organizational capabilities that support sustainable growth.",
+        "rating": 5,
+        "initials": "RW",
+        "color": "#1e3a5f"
+      }
+    ],
+    "src1": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1800&q=80",
+    "alt2": "High-tech enterprise datacenter and cloud facility",
+    "text3": "Engagement Perspectives",
+    "text4": "Connecting Advice with Business Priorities",
+    "text5": "Illustrative engagement themes show how strategy, transformation, risk and people can work together. These are editorial examples, not client endorsements."
+  },
+  "TrustedBySection": {
+    "text1": "Focused on",
+    "text2": "business",
+    "text3": "priorities & leadership teams",
+    "text4": "MARKETING",
+    "text5": "AGENCY SLOGAN",
+    "text6": "Carriest",
+    "text7": "SLOGAN HERE",
+    "text8": "Alohu",
+    "text9": "THE GAME",
+    "text10": "Minest",
+    "text11": "AUTOMATION",
+    "text12": "Success",
+    "text13": "GOOD PEOPLE",
+    "text14": "Minest",
+    "text15": "AUTOMATION"
+  }
+}

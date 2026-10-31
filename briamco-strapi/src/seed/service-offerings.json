@@ -1,0 +1,292 @@
+{
+  "people-advisory": [
+    [
+      "Board & Leadership Effectiveness",
+      "Efektivitas Dewan & Kepemimpinan",
+      [
+        "Leadership assessment",
+        "Succession planning",
+        "Governance alignment"
+      ],
+      [
+        "Asesmen kepemimpinan",
+        "Perencanaan suksesi",
+        "Keselarasan tata kelola"
+      ]
+    ],
+    [
+      "People Strategy",
+      "Strategi SDM",
+      [
+        "Culture and purpose",
+        "Workforce priorities",
+        "Future of work"
+      ],
+      [
+        "Budaya dan tujuan",
+        "Prioritas tenaga kerja",
+        "Masa depan pekerjaan"
+      ]
+    ],
+    [
+      "Organizational Performance",
+      "Kinerja Organisasi",
+      [
+        "Organization design",
+        "Team effectiveness",
+        "Performance improvement"
+      ],
+      [
+        "Desain organisasi",
+        "Efektivitas tim",
+        "Peningkatan kinerja"
+      ]
+    ],
+    [
+      "Leadership Development",
+      "Pengembangan Kepemimpinan",
+      [
+        "Leadership capability",
+        "Coaching priorities",
+        "Change readiness"
+      ],
+      [
+        "Kapabilitas kepemimpinan",
+        "Prioritas coaching",
+        "Kesiapan perubahan"
+      ]
+    ]
+  ],
+  "strategy-communications": [
+    [
+      "Corporate Strategy",
+      "Strategi Korporasi",
+      [
+        "Strategic priorities",
+        "Stakeholder analysis",
+        "Business positioning"
+      ],
+      [
+        "Prioritas strategis",
+        "Analisis pemangku kepentingan",
+        "Posisi bisnis"
+      ]
+    ],
+    [
+      "Reputation & Communications",
+      "Reputasi & Komunikasi",
+      [
+        "Corporate narrative",
+        "Reputation assessment",
+        "Communications planning"
+      ],
+      [
+        "Narasi perusahaan",
+        "Asesmen reputasi",
+        "Perencanaan komunikasi"
+      ]
+    ],
+    [
+      "Stakeholder Engagement",
+      "Hubungan Pemangku Kepentingan",
+      [
+        "Audience insights",
+        "Engagement strategy",
+        "Leadership communications"
+      ],
+      [
+        "Wawasan audiens",
+        "Strategi keterlibatan",
+        "Komunikasi kepemimpinan"
+      ]
+    ],
+    [
+      "Crisis Preparedness",
+      "Kesiapan Krisis",
+      [
+        "Scenario planning",
+        "Response protocols",
+        "Communications readiness"
+      ],
+      [
+        "Perencanaan skenario",
+        "Protokol respons",
+        "Kesiapan komunikasi"
+      ]
+    ]
+  ],
+  "management-consulting": [
+    [
+      "Business Transformation",
+      "Transformasi Bisnis",
+      [
+        "Transformation roadmap",
+        "Operating model",
+        "Delivery priorities"
+      ],
+      [
+        "Peta jalan transformasi",
+        "Model operasional",
+        "Prioritas pelaksanaan"
+      ]
+    ],
+    [
+      "Organizational Alignment",
+      "Keselarasan Organisasi",
+      [
+        "Strategic alignment",
+        "Decision rights",
+        "Change management"
+      ],
+      [
+        "Keselarasan strategis",
+        "Kewenangan keputusan",
+        "Manajemen perubahan"
+      ]
+    ],
+    [
+      "Performance Improvement",
+      "Peningkatan Kinerja",
+      [
+        "Process review",
+        "Operational efficiency",
+        "Performance measures"
+      ],
+      [
+        "Evaluasi proses",
+        "Efisiensi operasional",
+        "Ukuran kinerja"
+      ]
+    ],
+    [
+      "Digital Strategy",
+      "Strategi Digital",
+      [
+        "Digital priorities",
+        "Technology readiness",
+        "Implementation planning"
+      ],
+      [
+        "Prioritas digital",
+        "Kesiapan teknologi",
+        "Perencanaan implementasi"
+      ]
+    ]
+  ],
+  "financial-advisory": [
+    [
+      "Financial Strategy",
+      "Strategi Keuangan",
+      [
+        "Financial priorities",
+        "Scenario analysis",
+        "Capital planning"
+      ],
+      [
+        "Prioritas keuangan",
+        "Analisis skenario",
+        "Perencanaan modal"
+      ]
+    ],
+    [
+      "Business Planning",
+      "Perencanaan Bisnis",
+      [
+        "Business model review",
+        "Forecast assumptions",
+        "Planning framework"
+      ],
+      [
+        "Evaluasi model bisnis",
+        "Asumsi proyeksi",
+        "Kerangka perencanaan"
+      ]
+    ],
+    [
+      "Transaction Readiness",
+      "Kesiapan Transaksi",
+      [
+        "Readiness assessment",
+        "Decision support",
+        "Stakeholder coordination"
+      ],
+      [
+        "Asesmen kesiapan",
+        "Dukungan keputusan",
+        "Koordinasi pemangku kepentingan"
+      ]
+    ],
+    [
+      "Value Protection",
+      "Perlindungan Nilai",
+      [
+        "Risk assessment",
+        "Financial resilience",
+        "Action planning"
+      ],
+      [
+        "Asesmen risiko",
+        "Ketahanan keuangan",
+        "Perencanaan tindakan"
+      ]
+    ]
+  ],
+  "risk-advisory": [
+    [
+      "Enterprise Risk",
+      "Risiko Perusahaan",
+      [
+        "Risk identification",
+        "Risk prioritization",
+        "Governance review"
+      ],
+      [
+        "Identifikasi risiko",
+        "Prioritas risiko",
+        "Evaluasi tata kelola"
+      ]
+    ],
+    [
+      "Business Resilience",
+      "Ketahanan Bisnis",
+      [
+        "Continuity planning",
+        "Scenario assessment",
+        "Response readiness"
+      ],
+      [
+        "Perencanaan keberlangsungan",
+        "Asesmen skenario",
+        "Kesiapan respons"
+      ]
+    ],
+    [
+      "Technology Risk",
+      "Risiko Teknologi",
+      [
+        "Digital dependencies",
+        "Control assessment",
+        "Technology resilience"
+      ],
+      [
+        "Ketergantungan digital",
+        "Asesmen pengendalian",
+        "Ketahanan teknologi"
+      ]
+    ],
+    [
+      "Reputation Risk",
+      "Risiko Reputasi",
+      [
+        "Stakeholder expectations",
+        "Reputation exposure",
+        "Mitigation priorities"
+      ],
+      [
+        "Harapan pemangku kepentingan",
+        "Eksposur reputasi",
+        "Prioritas mitigasi"
+      ]
+    ]
+  ]
+}

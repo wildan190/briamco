@@ -1,0 +1,87 @@
+{
+  "heroTitle": "Bergabung dengan Kami",
+  "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2200&q=85",
+  "overviewTab": "Ikhtisar",
+  "purposeTab": "Tujuan & Nilai Kami",
+  "benefitsTab": "Bekerja di BRIAMCO",
+  "positionsTab": "Lowongan Terbuka",
+  "overviewTitle": "Seperti apa bekerja di BRIAMCO?",
+  "overviewLead": "Hadirkan perspektif Anda untuk peluang dan tantangan bisnis yang berarti.",
+  "overviewBody": "Kami menghubungkan pemikiran strategis dengan pelaksanaan praktis. Berbagai disiplin, perspektif, dan pengalaman bertemu untuk membantu organisasi melangkah maju.",
+  "overviewBody2": "Kenali budaya kami dan temukan bagaimana rasa ingin tahu, keahlian, serta ambisi Anda dapat memberikan dampak.",
+  "positionsCta": "Jelajahi Lowongan",
+  "cultureLabel": "Filosofi kerja kami",
+  "cultureQuote": "Gagasan terbaik tumbuh ketika kita mendengarkan dengan saksama, menguji pemikiran secara terbuka, dan bekerja bersama dengan tujuan yang jelas.",
+  "cultureAuthor": "BRIAMCO",
+  "cultureRole": "Perspektif. Kemitraan. Kemajuan.",
+  "purposeTitle": "Tujuan Kami",
+  "purposeText": "Bermitra dengan organisasi untuk mengubah tantangan kompleks menjadi kemajuan yang berarti.",
+  "valuesTitle": "Nilai Kami",
+  "bannerTitle": "Temukan peluang karier yang tepat untuk Anda.",
+  "bannerBody": "Hadirkan rasa ingin tahu dan semangat kolaborasi Anda. Jelajahi peluang berikut dan temukan peran yang sesuai pengalaman serta aspirasi Anda.",
+  "bannerImage": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85",
+  "benefitsTitle": "Bekerja di BRIAMCO",
+  "benefitsIntro": "Lingkungan yang dibangun melalui pembelajaran, kolaborasi, dan pekerjaan yang bermakna.",
+  "positionsTitle": "Lowongan Terbuka",
+  "searchPlaceholder": "Cari Lowongan",
+  "allSegments": "Semua Bidang Bisnis",
+  "allLocations": "Semua Lokasi",
+  "emptyTitle": "Belum ada lowongan terbuka",
+  "emptyText": "Kunjungi kembali untuk peluang terbaru atau hubungi kami untuk menyampaikan minat Anda.",
+  "noResults": "Tidak ada lowongan yang cocok. Gunakan kata lain atau atur ulang filter.",
+  "resetLabel": "Atur ulang filter",
+  "interestLabel": "Sampaikan minat Anda",
+  "applyLabel": "Lamar posisi ini",
+  "values": [
+    {
+      "title": "Fokus pada Klien",
+      "description": "Pahami konteks, ajukan pertanyaan yang tepat, dan fokus pada hasil yang berarti."
+    },
+    {
+      "title": "Bertumbuh Bersama",
+      "description": "Berbagi pengetahuan, belajar dari pengalaman, dan membantu pengembangan kemampuan."
+    },
+    {
+      "title": "Kolaborasi",
+      "description": "Satukan disiplin dan perspektif untuk menjawab tantangan kompleks."
+    },
+    {
+      "title": "Inklusi & Inisiatif",
+      "description": "Dengarkan beragam pengalaman dan beri ruang bagi gagasan serta tindakan konstruktif."
+    },
+    {
+      "title": "Keterbukaan & Kepercayaan",
+      "description": "Sampaikan pendapat dengan bijak, dengarkan secara aktif, dan bangun kepercayaan melalui dialog."
+    },
+    {
+      "title": "Integritas & Tanggung Jawab",
+      "description": "Bertanggung jawab atas keputusan dan menghormati rekan serta pemangku kepentingan."
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Pembelajaran & Pengembangan",
+      "description": "Kembangkan kemampuan melalui perspektif baru, tantangan praktis, dan pembelajaran bersama."
+    },
+    {
+      "title": "Tim yang Kolaboratif",
+      "description": "Bekerja bersama rekan dengan pengalaman dan cara berpikir yang saling melengkapi."
+    },
+    {
+      "title": "Pekerjaan Bermakna",
+      "description": "Hubungkan kontribusi Anda dengan prioritas dan kemajuan organisasi yang kami dampingi."
+    },
+    {
+      "title": "Pola Pikir Kepemimpinan",
+      "description": "Bangun pertimbangan untuk mengajukan pertanyaan yang tepat dan bertanggung jawab atas pekerjaan."
+    },
+    {
+      "title": "Perspektif Beragam",
+      "description": "Belajar dari beragam latar belakang dan pendekatan dalam memecahkan masalah."
+    },
+    {
+      "title": "Pertumbuhan Profesional",
+      "description": "Jelajahi kesempatan memperdalam keahlian seiring perkembangan bisnis dan peran Anda."
+    }
+  ]
+}

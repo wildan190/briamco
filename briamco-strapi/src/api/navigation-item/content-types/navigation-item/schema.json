@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigation_items",
+  "info": {
+    "singularName": "navigation-item",
+    "pluralName": "navigation-items",
+    "displayName": "Navigation Item",
+    "description": "Navbar labels EN/ID, URLs, order and dropdown type."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "key": {
+      "type": "string",
+      "unique": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "labelId": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "services"
+      ],
+      "default": "link"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

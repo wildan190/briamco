@@ -1,0 +1,585 @@
+{
+  "AboutSection": {
+    "points": [
+      {
+        "title": "Advisori Terpadu",
+        "desc": "Menghubungkan strategi, komunikasi, teknologi, dan prioritas operasional melalui pemahaman bisnis yang menyeluruh."
+      },
+      {
+        "title": "Pelaksanaan Praktis",
+        "desc": "Menerjemahkan keputusan menjadi alur kerja yang jelas, tim yang bertanggung jawab, dan kemajuan yang terukur."
+      },
+      {
+        "title": "Perspektif Kolaboratif",
+        "desc": "Bekerja bersama organisasi Anda untuk memahami tantangan yang lebih luas dan membangun kapabilitas untuk masa depan."
+      }
+    ],
+    "src1": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80",
+    "alt2": "Software engineering team collaborating on distributed systems",
+    "src3": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=600&q=80",
+    "alt4": "Tech architects reviewing system design diagrams",
+    "text5": "360°",
+    "text6": "Perspektif Bisnis",
+    "text7": "Tentang BRIAMCO",
+    "text8": "Perspektif Terpadu",
+    "text9": "untuk Prioritas Bisnis Anda",
+    "text10": "BRIAMCO menghubungkan advisori strategis dengan keahlian teknologi untuk membantu organisasi mengambil keputusan yang tepat dan mengubah tantangan kompleks menjadi rencana yang dapat dilaksanakan. Kami bekerja bersama tim pimpinan untuk menyelaraskan prioritas bisnis, SDM, dan pelaksanaan.",
+    "text11": "Bertumbuh Bersama Kami"
+  },
+  "BlogSection": {
+    "articles": [
+      {
+        "id": 1,
+        "badge": "Kepemimpinan & Strategi",
+        "author": "BRIAMCO Editorial",
+        "title": "Memimpin di Tengah Ketidakpastian: Menghubungkan Strategi dengan Pelaksanaan",
+        "excerpt": "Perspektif praktis untuk menyelaraskan kepemimpinan, pemangku kepentingan, dan prioritas operasional saat lingkungan bisnis berubah.",
+        "day": "10",
+        "month": "Oct",
+        "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=700&q=80",
+        "alt": "Software engineers reviewing cloud architecture diagrams",
+        "slug": "leading-through-uncertainty-connecting-strategy-with-execution",
+        "type": "blog"
+      },
+      {
+        "id": 2,
+        "badge": "Transformasi & Risiko",
+        "author": "BRIAMCO Editorial",
+        "title": "AI untuk Perusahaan: Menyeimbangkan Peluang, Tata Kelola, dan Nilai Bisnis",
+        "excerpt": "Pengantar untuk menilai peluang AI dengan mempertimbangkan tata kelola, kesiapan organisasi, dan risiko.",
+        "day": "10",
+        "month": "Oct",
+        "img": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=700&q=80",
+        "alt": "Data scientists discussing machine learning pipeline benchmarks",
+        "slug": "enterprise-ai-balancing-opportunity-governance-and-business-value",
+        "type": "blog"
+      }
+    ],
+    "text1": "BERITA & WAWASAN",
+    "text2": "Perspektif tentang ",
+    "text3": "Bisnis, Perubahan ",
+    "text4": "& Kepemimpinan",
+    "text5": "Jelajahi perspektif BRIAMCO tentang strategi, transformasi, teknologi, dan risiko.",
+    "text6": "Jelajahi Wawasan",
+    "text7": "Baca Selengkapnya"
+  },
+  "ContactSection": {
+    "src1": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
+    "alt2": "Diverse corporate leadership team reviewing business strategy on laptop",
+    "text3": "DISKUSIKAN PRIORITAS BISNIS ANDA",
+    "text4": "Siap Menghadapi Perubahan?",
+    "text5": "Mari Diskusikan Tujuan Bisnis Anda",
+    "text6": "Alamat",
+    "text7": "Detail kantor akan dikonfirmasi",
+    "text8": "Hubungi kami melalui formulir",
+    "text9": "Kontak",
+    "href10": "mailto:solutions@briamco.com",
+    "text11": "solutions@briamco.com",
+    "href12": "#contact",
+    "text13": "Gunakan formulir konsultasi",
+    "text14": "Permintaan Konsultasi Terkirim!",
+    "text15": "Terima kasih,",
+    "text16": ". Pesan Anda telah disimpan untuk ditinjau oleh tim BRIAMCO.",
+    "text17": "Kirim Permintaan Lain",
+    "text18": "Jadwalkan Konsultasi",
+    "text19": "Perspektif Terpadu",
+    "text20": "Peta Jalan Praktis",
+    "text21": "Prioritas Jelas",
+    "placeholder22": "Nama Anda",
+    "placeholder23": "Email",
+    "placeholder24": "Subjek",
+    "placeholder25": "Tulis Pesan"
+  },
+  "CtaBanner": {
+    "stats": [
+      {
+        "value": "01",
+        "label": "Strategi — Menghubungkan ambisi bisnis dengan prioritas yang jelas dan keputusan yang praktis.",
+        "icon": "folder"
+      },
+      {
+        "value": "02",
+        "label": "Teknologi — Membangun fondasi digital yang mendukung transformasi dan pertumbuhan.",
+        "icon": "star"
+      },
+      {
+        "value": "03",
+        "label": "Ketahanan — Memahami risiko pada operasi, reputasi, dan pemangku kepentingan.",
+        "icon": "briefcase"
+      },
+      {
+        "value": "04",
+        "label": "SDM — Menempatkan kepemimpinan dan kapabilitas organisasi sebagai inti perubahan.",
+        "icon": "building"
+      }
+    ],
+    "text1": "Siap Bertransformasi?",
+    "text2": "Membangun Bisnis yang Tangguh",
+    "text3": "untuk Masa Depan",
+    "text4": "Hubungkan pemikiran strategis dengan pelaksanaan praktis. Diskusikan bagaimana BRIAMCO dapat mendukung prioritas bisnis Anda berikutnya.",
+    "text5": "Jadwalkan Konsultasi",
+    "text6": "Jelajahi Solusi"
+  },
+  "FaqSection": {
+    "faqs": [
+      {
+        "q": "Apa yang BRIAMCO bantu capai bagi organisasi?",
+        "a": "Kami membantu tim pimpinan memperjelas prioritas strategis, merencanakan transformasi, dan menghubungkan advisori dengan pelaksanaan praktis."
+      },
+      {
+        "q": "Bagaimana proses pendampingan dimulai?",
+        "a": "Kami mendiskusikan tujuan bisnis Anda, lalu menyepakati lingkup, hasil kerja, dan tanggung jawab sebelum pekerjaan dimulai."
+      },
+      {
+        "q": "Apakah layanan dapat digabungkan?",
+        "a": "Pendampingan dapat menggabungkan strategi, komunikasi, teknologi, dan prioritas organisasi sesuai kebutuhan Anda."
+      },
+      {
+        "q": "Bagaimana informasi sensitif ditangani?",
+        "a": "Persyaratan kerahasiaan, akses, dan penanganan informasi disepakati sebagai bagian dari lingkup pendampingan."
+      },
+      {
+        "q": "Bagaimana cara menghubungi tim?",
+        "a": "Gunakan formulir konsultasi untuk menyampaikan prioritas Anda. Pesan Anda disimpan untuk ditinjau oleh tim."
+      }
+    ],
+    "text1": "Ada Pertanyaan?",
+    "text2": "Pertanyaan yang Sering Diajukan",
+    "text3": "Pelajari bagaimana BRIAMCO menghubungkan advisori strategis dengan teknologi dan pelaksanaan praktis."
+  },
+  "FooterSection": {
+    "footerLinks": {
+      "Services": [
+        "Strategi & Komunikasi",
+        "Konsultasi Manajemen",
+        "Advisori Keuangan",
+        "Risiko & Ketahanan",
+        "SDM & Organisasi"
+      ],
+      "Company": [
+        "Perusahaan Kami",
+        "Tim Kami",
+        "Perspektif Pendampingan",
+        "Berita & Wawasan",
+        "Kontak"
+      ],
+      "Explore": [
+        "Transformasi Bisnis",
+        "Strategi Digital",
+        "Kepemimpinan",
+        "Kesiapan Organisasi",
+        "Diskusikan Prioritas Anda"
+      ]
+    },
+    "src1": "/logo.svg",
+    "alt2": "BRIAMCO Logo",
+    "text3": "Menghubungkan strategi, teknologi, dan pelaksanaan praktis untuk membantu organisasi menghadapi perubahan dan menciptakan nilai berkelanjutan.",
+    "text4": "©",
+    "text5": "BRIAMCO. Hak cipta dilindungi.",
+    "text6": "Kebijakan Privasi",
+    "text7": "Ketentuan Layanan",
+    "text8": "Kebijakan Cookie"
+  },
+  "HeroSection": {
+    "marqueeItems": [
+      "Strategi & Komunikasi",
+      "Manajemen & Transformasi",
+      "Advisori Keuangan",
+      "Risiko & Ketahanan",
+      "SDM & Organisasi"
+    ],
+    "stats": [
+      {
+        "value": "01",
+        "label": "Strategi — Menghubungkan ambisi bisnis dengan prioritas yang jelas dan keputusan yang praktis."
+      },
+      {
+        "value": "02",
+        "label": "Teknologi — Membangun fondasi digital yang mendukung transformasi dan pertumbuhan."
+      },
+      {
+        "value": "03",
+        "label": "Ketahanan — Memahami risiko pada operasi, reputasi, dan pemangku kepentingan."
+      },
+      {
+        "value": "04",
+        "label": "SDM — Menempatkan kepemimpinan dan kapabilitas organisasi sebagai inti perubahan."
+      }
+    ],
+    "href1": "mailto:hello@briamco.com",
+    "text2": "hello@briamco.com",
+    "text3": "Hubungi BRIAMCO untuk detail kantor",
+    "text4": "Sen–Jum, 08.00–17.00 WIB",
+    "text5": "STRATEGI, TEKNOLOGI & ADVISORI BISNIS",
+    "text6": "Membantu Pemimpin Menghadapi Perubahan",
+    "text7": "dan Menciptakan Nilai Berkelanjutan",
+    "text8": "BRIAMCO memadukan strategi, teknologi, dan pelaksanaan praktis untuk membantu pemimpin bisnis menghadapi kompleksitas, memperkuat ketahanan, dan mencapai pertumbuhan berkelanjutan.",
+    "text9": "Diskusikan Prioritas Bisnis Anda",
+    "text10": "JL",
+    "text11": "MS",
+    "text12": "AK",
+    "text13": "Strategi yang terhubung dengan pelaksanaan praktis",
+    "src14": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1800&q=80",
+    "alt15": "Enterprise engineers and technology leads collaborating in modern development lab"
+  },
+  "NavBar": {
+    "navLinks": [
+      {
+        "label": "Beranda",
+        "href": "/",
+        "type": "link"
+      },
+      {
+        "label": "Tentang Kami",
+        "href": "/about",
+        "type": "link"
+      },
+      {
+        "label": "Layanan",
+        "href": "/services",
+        "type": "services"
+      },
+      {
+        "label": "Solusi",
+        "href": "/solutions",
+        "type": "link"
+      },
+      {
+        "label": "Wawasan",
+        "href": "/insight",
+        "type": "link"
+      },
+      {
+        "label": "Kontak",
+        "href": "/contact",
+        "type": "link"
+      }
+    ],
+    "src1": "/logo.svg",
+    "alt2": "BRIAMCO Logo",
+    "text3": "EN",
+    "text4": "ID",
+    "text5": "English (EN)",
+    "text6": "Bahasa (ID)"
+  },
+  "ServicesSection": {
+    "tabs": [
+      {
+        "category": "Enterprise",
+        "name": "Strategi & Komunikasi",
+        "count": "03",
+        "services": [
+          {
+            "icon": "settings",
+            "title": "Strategi Korporasi",
+            "desc": "Menghadirkan perspektif terpadu untuk strategi korporasi. Menyelaraskan keputusan pimpinan dengan kebutuhan pemangku kepentingan, pelaksanaan praktis, dan nilai bisnis jangka panjang.",
+            "features": [
+              "Menilai prioritas dan konteks bisnis",
+              "Menyusun peta jalan yang dapat diterapkan",
+              "Mendukung implementasi dan meninjau kemajuan"
+            ],
+            "img1": "Cloud architects designing distributed infrastructure roadmap",
+            "img2": "DevOps team managing multi-region server cluster monitoring",
+            "photo1": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "bar-chart",
+            "title": "Komunikasi Pemangku Kepentingan",
+            "desc": "Menghadirkan perspektif terpadu untuk komunikasi pemangku kepentingan. Menyelaraskan keputusan pimpinan dengan kebutuhan pemangku kepentingan, pelaksanaan praktis, dan nilai bisnis jangka panjang.",
+            "features": [
+              "Menilai prioritas dan konteks bisnis",
+              "Menyusun peta jalan yang dapat diterapkan",
+              "Mendukung implementasi dan meninjau kemajuan"
+            ],
+            "img1": "Engineers configuring automated deployment pipelines",
+            "img2": "Site reliability engineering team monitoring production telemetry",
+            "photo1": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "target",
+            "title": "Reputasi & Perubahan",
+            "desc": "Menghadirkan perspektif terpadu untuk reputasi & perubahan. Menyelaraskan keputusan pimpinan dengan kebutuhan pemangku kepentingan, pelaksanaan praktis, dan nilai bisnis jangka panjang.",
+            "features": [
+              "Menilai prioritas dan konteks bisnis",
+              "Menyusun peta jalan yang dapat diterapkan",
+              "Mendukung implementasi dan meninjau kemajuan"
+            ],
+            "img1": "Cybersecurity analysts reviewing threat detection dashboard",
+            "img2": "Security engineers conducting automated penetration tests",
+            "photo1": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=700&q=80"
+          }
+        ]
+      },
+      {
+        "category": "Scaleups",
+        "name": "Konsultasi Manajemen",
+        "count": "04",
+        "services": [
+          {
+            "icon": "code",
+            "title": "Transformasi Bisnis",
+            "desc": "Menghadirkan perspektif terpadu untuk transformasi bisnis. Menyelaraskan keputusan pimpinan dengan kebutuhan pemangku kepentingan, pelaksanaan praktis, dan nilai bisnis jangka panjang.",
+            "features": [
+              "Menilai prioritas dan konteks bisnis",
+              "Menyusun peta jalan yang dapat diterapkan",
+              "Mendukung implementasi dan meninjau kemajuan"
+            ],
+            "img1": "Software engineering team collaborating on distributed systems",
+            "img2": "Full-stack developers reviewing clean code and testing suites",
+            "photo1": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "smartphone",
+            "title": "Desain Model Operasi",
+            "desc": "Menghadirkan perspektif terpadu untuk desain model operasi. Menyelaraskan keputusan pimpinan dengan kebutuhan pemangku kepentingan, pelaksanaan praktis, dan nilai bisnis jangka panjang.",
+            "features": [
+              "Menilai prioritas dan konteks bisnis",
+              "Menyusun peta jalan yang dapat diterapkan",
+              "Mendukung implementasi dan meninjau kemajuan"
+            ],
+            "img1": "Mobile developers testing interactive iOS and Android UI",
+            "img2": "App engineers inspecting real-time mobile performance diagnostics",
+            "photo1": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "database",
+            "title": "Peningkatan Kinerja",
+            "desc": "Menghadirkan perspektif terpadu untuk peningkatan kinerja. Menyelaraskan keputusan pimpinan dengan kebutuhan pemangku kepentingan, pelaksanaan praktis, dan nilai bisnis jangka panjang.",
+            "features": [
+              "Menilai prioritas dan konteks bisnis",
+              "Menyusun peta jalan yang dapat diterapkan",
+              "Mendukung implementasi dan meninjau kemajuan"
+            ],
+            "img1": "System architects diagramming database modernization paths",
+            "img2": "Senior engineers performing zero-downtime database cutover",
+            "photo1": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "settings",
+            "title": "Strategi Digital",
+            "desc": "Menghadirkan perspektif terpadu untuk strategi digital. Menyelaraskan keputusan pimpinan dengan kebutuhan pemangku kepentingan, pelaksanaan praktis, dan nilai bisnis jangka panjang.",
+            "features": [
+              "Menilai prioritas dan konteks bisnis",
+              "Menyusun peta jalan yang dapat diterapkan",
+              "Mendukung implementasi dan meninjau kemajuan"
+            ],
+            "img1": "Integration developers debugging webhook stream monitoring",
+            "img2": "Cloud architects inspecting enterprise API gateway traffic",
+            "photo1": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=700&q=80"
+          }
+        ]
+      },
+      {
+        "category": "Enterprise",
+        "name": "Advisori Keuangan & Risiko",
+        "count": "04",
+        "services": [
+          {
+            "icon": "brain",
+            "title": "Kesiapan Transaksi",
+            "desc": "Menghadirkan perspektif terpadu untuk kesiapan transaksi. Menyelaraskan keputusan pimpinan dengan kebutuhan pemangku kepentingan, pelaksanaan praktis, dan nilai bisnis jangka panjang.",
+            "features": [
+              "Menilai prioritas dan konteks bisnis",
+              "Menyusun peta jalan yang dapat diterapkan",
+              "Mendukung implementasi dan meninjau kemajuan"
+            ],
+            "img1": "AI researchers evaluating LLM prompt orchestration pipelines",
+            "img2": "Machine learning engineers running vector search benchmarks",
+            "photo1": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "bar-chart",
+            "title": "Perencanaan Keuangan",
+            "desc": "Menghadirkan perspektif terpadu untuk perencanaan keuangan. Menyelaraskan keputusan pimpinan dengan kebutuhan pemangku kepentingan, pelaksanaan praktis, dan nilai bisnis jangka panjang.",
+            "features": [
+              "Menilai prioritas dan konteks bisnis",
+              "Menyusun peta jalan yang dapat diterapkan",
+              "Mendukung implementasi dan meninjau kemajuan"
+            ],
+            "img1": "Data engineers configuring real-time ETL streaming pipelines",
+            "img2": "Analytics team reviewing Snowflake warehouse query performance",
+            "photo1": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "target",
+            "title": "Risiko & Ketahanan",
+            "desc": "Menghadirkan perspektif terpadu untuk risiko & ketahanan. Menyelaraskan keputusan pimpinan dengan kebutuhan pemangku kepentingan, pelaksanaan praktis, dan nilai bisnis jangka panjang.",
+            "features": [
+              "Menilai prioritas dan konteks bisnis",
+              "Menyusun peta jalan yang dapat diterapkan",
+              "Mendukung implementasi dan meninjau kemajuan"
+            ],
+            "img1": "Data scientists validating predictive model precision curves",
+            "img2": "MLOps engineer deploying containerized model inference workers",
+            "photo1": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=700&q=80"
+          },
+          {
+            "icon": "shield",
+            "title": "SDM & Organisasi",
+            "desc": "Menghadirkan perspektif terpadu untuk sdm & organisasi. Menyelaraskan keputusan pimpinan dengan kebutuhan pemangku kepentingan, pelaksanaan praktis, dan nilai bisnis jangka panjang.",
+            "features": [
+              "Menilai prioritas dan konteks bisnis",
+              "Menyusun peta jalan yang dapat diterapkan",
+              "Mendukung implementasi dan meninjau kemajuan"
+            ],
+            "img1": "Data governance officers reviewing data lineage catalog",
+            "img2": "Compliance team reviewing automated privacy audit logs",
+            "photo1": "https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&w=700&q=80",
+            "photo2": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=700&q=80"
+          }
+        ]
+      }
+    ],
+    "text1": "Jelajahi Layanan Kami",
+    "text2": "Solusi yang Kami Tawarkan",
+    "text3": "untuk Kebutuhan Anda",
+    "text4": "Advisori terpadu bagi pemimpin bisnis di bidang strategi, transformasi, keuangan, risiko, dan organisasi, didukung keahlian teknologi serta fokus pada pelaksanaan.",
+    "text5": "Lihat Semua Layanan",
+    "text6": "(",
+    "text7": ")",
+    "text8": "Detail Layanan"
+  },
+  "SolutionsSection": {
+    "solutions": [
+      {
+        "label": "Startup & Bisnis Berkembang",
+        "title": "Strategi Pertumbuhan & Kesiapan Bisnis",
+        "desc": "Selaraskan prioritas pertumbuhan, posisi pasar, dan kapabilitas organisasi Anda dengan rencana pelaksanaan yang praktis.",
+        "features": [
+          "Memperjelas prioritas strategis",
+          "Menilai kesiapan organisasi",
+          "Menyusun peta jalan yang dapat diterapkan",
+          "Meninjau kemajuan dan beradaptasi"
+        ],
+        "img": "Startup engineering team pairing on new code releases",
+        "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+      },
+      {
+        "label": "Skala Perusahaan",
+        "title": "Transformasi & Ketahanan Perusahaan",
+        "desc": "Hadapi perubahan yang kompleks dengan menghubungkan strategi, model operasi, teknologi, dan pemahaman risiko.",
+        "features": [
+          "Memperjelas prioritas strategis",
+          "Menilai kesiapan organisasi",
+          "Menyusun peta jalan yang dapat diterapkan",
+          "Meninjau kemajuan dan beradaptasi"
+        ],
+        "img": "Enterprise systems engineers monitoring distributed cloud metrics",
+        "photo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80"
+      }
+    ],
+    "text1": "Solusi Sesuai Kebutuhan",
+    "text2": "Advisori untuk Setiap Tahap Perubahan",
+    "text3": "Hubungkan prioritas bisnis dengan peta jalan yang dapat diterapkan, baik untuk membangun pertumbuhan maupun mentransformasi organisasi yang telah mapan.",
+    "text4": "Mulai Sekarang"
+  },
+  "TeamSection": {
+    "team": [
+      {
+        "name": "Penasihat Strategi",
+        "role": "Profil akan dikonfirmasi",
+        "initials": "SA",
+        "color": "#0d1b2a",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Penasihat Transformasi",
+        "role": "Profil akan dikonfirmasi",
+        "initials": "TA",
+        "color": "#1e3a5f",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Penasihat Risiko",
+        "role": "Profil akan dikonfirmasi",
+        "initials": "RA",
+        "color": "#2563eb",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Penasihat Teknologi",
+        "role": "Profil akan dikonfirmasi",
+        "initials": "DA",
+        "color": "#1a2e44",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "text1": "Tim Kami",
+    "text2": "Kenali Perspektif Advisori Kami",
+    "text3": "Ilustrasi profil penasihat menunjukkan bagaimana perspektif yang saling melengkapi dapat mendukung prioritas Anda. Biografi tim yang telah dikonfirmasi dapat dikelola di sini melalui CMS.",
+    "text4": "in",
+    "text5": "@"
+  },
+  "TestimonialsSection": {
+    "testimonials": [
+      {
+        "name": "Ilustrasi pendampingan 1",
+        "role": "Contoh editorial — bukan testimoni klien",
+        "text": "Menyelaraskan pimpinan melalui strategi yang jelas dan peta jalan yang praktis.",
+        "rating": 5,
+        "initials": "SM",
+        "color": "#2563eb"
+      },
+      {
+        "name": "Ilustrasi pendampingan 2",
+        "role": "Contoh editorial — bukan testimoni klien",
+        "text": "Menghubungkan transformasi dengan model operasi yang mendukung pelaksanaan yang bertanggung jawab.",
+        "rating": 5,
+        "initials": "DC",
+        "color": "#1d4ed8"
+      },
+      {
+        "name": "Ilustrasi pendampingan 3",
+        "role": "Contoh editorial — bukan testimoni klien",
+        "text": "Menilai ketidakpastian pada operasi dan pemangku kepentingan untuk memperkuat ketahanan.",
+        "rating": 5,
+        "initials": "AH",
+        "color": "#0d1b2a"
+      },
+      {
+        "name": "Ilustrasi pendampingan 4",
+        "role": "Contoh editorial — bukan testimoni klien",
+        "text": "Membangun kapabilitas organisasi yang mendukung pertumbuhan berkelanjutan.",
+        "rating": 5,
+        "initials": "RW",
+        "color": "#1e3a5f"
+      }
+    ],
+    "src1": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1800&q=80",
+    "alt2": "High-tech enterprise datacenter and cloud facility",
+    "text3": "Perspektif Pendampingan",
+    "text4": "Menghubungkan Advisori dengan Prioritas Bisnis",
+    "text5": "Ilustrasi tema pendampingan menunjukkan bagaimana strategi, transformasi, risiko, dan SDM dapat bekerja bersama. Ini merupakan contoh editorial, bukan dukungan dari klien."
+  },
+  "TrustedBySection": {
+    "text1": "Berfokus pada",
+    "text2": "bisnis",
+    "text3": "prioritas & tim pimpinan",
+    "text4": "MARKETING",
+    "text5": "AGENCY SLOGAN",
+    "text6": "Carriest",
+    "text7": "SLOGAN HERE",
+    "text8": "Alohu",
+    "text9": "THE GAME",
+    "text10": "Minest",
+    "text11": "AUTOMATION",
+    "text12": "Success",
+    "text13": "GOOD PEOPLE",
+    "text14": "Minest",
+    "text15": "AUTOMATION"
+  }
+}
