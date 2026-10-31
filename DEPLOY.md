@@ -84,3 +84,5 @@ Konfigurasi ditargetkan untuk VPS Linux; penerbitan sertifikat dan akses domain 
 Referensi konfigurasi reverse proxy Strapi: https://docs.strapi.io/cms/configurations/server dan https://docs.strapi.io/cms/configurations/admin-panel
 
 Validasi lokal selesai: kedua image produksi berhasil dibangun; Strapi berjalan sebagai user non-root pada database PostgreSQL pengujian; endpoint konten, admin/init, halaman admin, serta rute SPA `/people` berhasil melewati Nginx HTTPS dengan sertifikat pengujian. Konfigurasi Compose, sintaks shell, penolakan import ke database non-kosong, dan 17 unit test frontend juga lolos. Penerbitan sertifikat Let's Encrypt asli belum dijalankan.
+
+Gangguan koneksi registry: deploy.sh menarik image runtime satu per satu dengan maksimum tiga percobaan, kemudian membangun image aplikasi dengan retry. ECONNRESET dari auth.docker.io berarti koneksi terputus sebelum autentikasi/download selesai; retry tidak mengatasi pemblokiran jaringan yang menetap. Periksa akses outbound HTTPS menuju auth.docker.io, registry-1.docker.io, dan registry.npmjs.org jika kegagalan berulang.

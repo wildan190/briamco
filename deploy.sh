@@ -58,12 +58,28 @@ write_https() {
     printf '\n}\n'
   } > deploy/nginx/runtime/default.conf
 }
+retry_network() {
+  local attempt status=1
+  for attempt in 1 2 3; do
+    if "$@"; then return 0; else status=$?; fi
+    if [[ $attempt -lt 3 ]]; then
+      echo "Download/build failed; retrying in $((attempt * 10)) seconds ($attempt/3)..." >&2
+      sleep "$((attempt * 10))"
+    fi
+  done
+  echo 'Download/build failed after 3 attempts. Check VPS access to Docker Hub and npm. No database volumes were removed.' >&2
+  return "$status"
+}
+echo 'Downloading runtime images sequentially...'
+for image in postgres:16-alpine nginx:stable-alpine certbot/certbot:latest; do
+  retry_network docker pull "$image"
+done
 echo 'Building production frontend and Strapi images...'
-"${DC[@]}" build --pull
+retry_network "${DC[@]}" build --pull
 if [[ -n $IMPORT_DIR ]]; then
   [[ -s $IMPORT_DIR/database.dump && -s $IMPORT_DIR/uploads.tar.gz ]] || { echo 'Import requires database.dump and uploads.tar.gz.' >&2; exit 1; }
   # Never overwrite an initialized database, including databases containing enquiries.
-  "${DC[@]}" up -d --wait --wait-timeout 120 postgres
+  "${DC[@]}" up -d --pull never --wait --wait-timeout 120 postgres
   count=$("${DC[@]}" exec -T postgres psql -U "$DATABASE_USER" -d "$DATABASE_NAME" -Atc "SELECT count(*) FROM pg_tables WHERE schemaname='public'")
   [[ $count == 0 ]] || { echo 'Import refused: production database is not empty. No data was replaced.' >&2; exit 1; }
   echo 'Importing existing database and uploaded media...'
@@ -76,7 +92,7 @@ else
   write_http
 fi
 echo 'Starting database, CMS, frontend and Nginx...'
-"${DC[@]}" up -d --wait --wait-timeout 600 postgres strapi frontend nginx
+"${DC[@]}" up -d --pull never --wait --wait-timeout 600 postgres strapi frontend nginx
 "${DC[@]}" exec -T nginx nginx -t
 "${DC[@]}" exec -T nginx nginx -s reload
 email_args=(--register-unsafely-without-email)
@@ -89,7 +105,7 @@ fi
 write_https
 "${DC[@]}" exec -T nginx nginx -t
 "${DC[@]}" exec -T nginx nginx -s reload
-"${DC[@]}" up -d certificate-renewal
+"${DC[@]}" up -d --pull never certificate-renewal
 # Verify the public endpoints through this host, independent of DNS caching.
 curl --fail --silent --show-error --resolve "$DOMAIN:443:127.0.0.1" "https://$DOMAIN/_health" -o /dev/null
 curl --fail --silent --show-error --resolve "$DOMAIN:443:127.0.0.1" "https://$DOMAIN/" -o /dev/null
