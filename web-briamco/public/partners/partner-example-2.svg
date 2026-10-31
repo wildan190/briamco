@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color:#94a3b8" width="145" height="42" viewBox="0 0 150 44" fill="none">
+            
+            <circle cx="16" cy="22" r="11" stroke="currentColor" stroke-width="2.5"/>
+            <circle cx="16" cy="22" r="4.5" fill="currentColor"/>
+            <path d="M16 35L12.5 30H19.5L16 35Z" fill="currentColor"/>
+            
+            <text x="36" y="24" font-family="'Georgia', serif" font-size="18.5" font-weight="700" fill="currentColor" letter-spacing="-0.3">Carriest</text>
+            <text x="37" y="35" font-family="'Inter', sans-serif" font-size="8" font-weight="600" fill="currentColor" fill-opacity="0.75" letter-spacing="2.2">SLOGAN HERE</text>
+          </svg>

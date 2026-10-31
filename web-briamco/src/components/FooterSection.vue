@@ -1,0 +1,6 @@
+<script setup lang="ts">
+import { Mail, ArrowUpRight } from '@lucide/vue'
+import { useCmsSection } from '../cms/content'
+import { services } from '../cms/pages'
+const c=useCmsSection('AdvisoryPage')
+</script><template><footer class="ad-footer"><div class="ad-wrap"><div class="ad-footer-top"><RouterLink to="/" class="ad-brand">BRIAMCO<span>ADVISORY</span></RouterLink><nav><RouterLink to="/about">{{ c.firmTitle }}</RouterLink><RouterLink to="/insight/news">News</RouterLink><RouterLink to="/careers">{{ c.careersTitle }}</RouterLink><RouterLink to="/contact">Contact</RouterLink></nav></div><div class="ad-footer-connect"><div><h2>{{ c.officeTitle }}</h2><p>{{ c.officeIntro }}</p><a :href="'mailto:'+c.officeEmail"><Mail :size="21"/> {{ c.officeEmail }} <ArrowUpRight :size="20"/></a></div><div class="ad-world" aria-hidden="true"><span>BRIAMCO</span><p>Perspective. Partnership. Progress.</p></div></div><div class="ad-footer-services"><h3>{{ c.servicesTitle }}</h3><div><RouterLink v-for="s in services" :key="s.slug" :to="'/services/'+s.slug">{{ s.title }}</RouterLink></div></div><div class="ad-footer-bottom"><span>© {{ new Date().getFullYear() }} BRIAMCO. All rights reserved.</span><RouterLink to="/contact">Contact BRIAMCO</RouterLink></div></div></footer></template>

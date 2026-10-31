@@ -1,0 +1,606 @@
+{
+  "AboutSection": {
+    "points": [
+      {
+        "title": "Advisori Terpadu",
+        "desc": "Menghubungkan strategi, komunikasi, teknologi, dan prioritas operasional melalui pemahaman bisnis yang menyeluruh."
+      },
+      {
+        "title": "Pelaksanaan Praktis",
+        "desc": "Menerjemahkan keputusan menjadi alur kerja yang jelas, tim yang bertanggung jawab, dan kemajuan yang terukur."
+      },
+      {
+        "title": "Perspektif Kolaboratif",
+        "desc": "Bekerja bersama organisasi Anda untuk memahami tantangan yang lebih luas dan membangun kapabilitas untuk masa depan."
+      }
+    ],
+    "src1": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80",
+    "alt2": "Software engineering team collaborating on distributed systems",
+    "src3": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=600&q=80",
+    "alt4": "Tech architects reviewing system design diagrams",
+    "text5": "360\u00b0",
+    "text6": "Perspektif Bisnis",
+    "text7": "Tentang BRIAMCO",
+    "text8": "Perspektif Terpadu",
+    "text9": "untuk Prioritas Bisnis Anda",
+    "text10": "BRIAMCO menghubungkan advisori strategis dengan keahlian teknologi untuk membantu organisasi mengambil keputusan yang tepat dan mengubah tantangan kompleks menjadi rencana yang dapat dilaksanakan. Kami bekerja bersama tim pimpinan untuk menyelaraskan prioritas bisnis, SDM, dan pelaksanaan.",
+    "text11": "Bertumbuh Bersama Kami"
+  },
+  "BlogSection": {
+    "articles": [],
+    "text1": "BERITA & WAWASAN",
+    "text2": "Perspektif tentang ",
+    "text3": "Bisnis, Perubahan ",
+    "text4": "& Kepemimpinan",
+    "text5": "Jelajahi perspektif BRIAMCO tentang strategi, transformasi, teknologi, dan risiko.",
+    "text6": "Jelajahi Wawasan",
+    "text7": "Baca Selengkapnya"
+  },
+  "ContactSection": {
+    "src1": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
+    "alt2": "Diverse corporate leadership team reviewing business strategy on laptop",
+    "text3": "DISKUSIKAN PRIORITAS BISNIS ANDA",
+    "text4": "Siap Menghadapi Perubahan?",
+    "text5": "Mari Diskusikan Tujuan Bisnis Anda",
+    "text6": "Alamat",
+    "text7": "Detail kantor akan dikonfirmasi",
+    "text8": "Hubungi kami melalui formulir",
+    "text9": "Kontak",
+    "href10": "mailto:solutions@briamco.com",
+    "text11": "solutions@briamco.com",
+    "href12": "#contact",
+    "text13": "Gunakan formulir konsultasi",
+    "text14": "Permintaan Konsultasi Terkirim!",
+    "text15": "Terima kasih,",
+    "text16": ". Pesan Anda telah disimpan untuk ditinjau oleh tim BRIAMCO.",
+    "text17": "Kirim Permintaan Lain",
+    "text18": "Jadwalkan Konsultasi",
+    "text19": "Perspektif Terpadu",
+    "text20": "Peta Jalan Praktis",
+    "text21": "Prioritas Jelas",
+    "placeholder22": "Nama Anda",
+    "placeholder23": "Email",
+    "placeholder24": "Subjek",
+    "placeholder25": "Tulis Pesan"
+  },
+  "CtaBanner": {
+    "stats": [
+      {
+        "value": "01",
+        "label": "Strategi \u2014 Menghubungkan ambisi bisnis dengan prioritas yang jelas dan keputusan yang praktis.",
+        "icon": "folder"
+      },
+      {
+        "value": "02",
+        "label": "Teknologi \u2014 Membangun fondasi digital yang mendukung transformasi dan pertumbuhan.",
+        "icon": "star"
+      },
+      {
+        "value": "03",
+        "label": "Ketahanan \u2014 Memahami risiko pada operasi, reputasi, dan pemangku kepentingan.",
+        "icon": "briefcase"
+      },
+      {
+        "value": "04",
+        "label": "SDM \u2014 Menempatkan kepemimpinan dan kapabilitas organisasi sebagai inti perubahan.",
+        "icon": "building"
+      }
+    ],
+    "text1": "Siap Bertransformasi?",
+    "text2": "Membangun Bisnis yang Tangguh",
+    "text3": "untuk Masa Depan",
+    "text4": "Hubungkan pemikiran strategis dengan pelaksanaan praktis. Diskusikan bagaimana BRIAMCO dapat mendukung prioritas bisnis Anda berikutnya.",
+    "text5": "Jadwalkan Konsultasi",
+    "text6": "Jelajahi Solusi"
+  },
+  "FaqSection": {
+    "faqs": [
+      {
+        "q": "Apa yang BRIAMCO bantu capai bagi organisasi?",
+        "a": "Kami membantu tim pimpinan memperjelas prioritas strategis, merencanakan transformasi, dan menghubungkan advisori dengan pelaksanaan praktis."
+      },
+      {
+        "q": "Bagaimana proses pendampingan dimulai?",
+        "a": "Kami mendiskusikan tujuan bisnis Anda, lalu menyepakati lingkup, hasil kerja, dan tanggung jawab sebelum pekerjaan dimulai."
+      },
+      {
+        "q": "Apakah layanan dapat digabungkan?",
+        "a": "Pendampingan dapat menggabungkan strategi, komunikasi, teknologi, dan prioritas organisasi sesuai kebutuhan Anda."
+      },
+      {
+        "q": "Bagaimana informasi sensitif ditangani?",
+        "a": "Persyaratan kerahasiaan, akses, dan penanganan informasi disepakati sebagai bagian dari lingkup pendampingan."
+      },
+      {
+        "q": "Bagaimana cara menghubungi tim?",
+        "a": "Gunakan formulir konsultasi untuk menyampaikan prioritas Anda. Pesan Anda disimpan untuk ditinjau oleh tim."
+      }
+    ],
+    "text1": "Ada Pertanyaan?",
+    "text2": "Pertanyaan yang Sering Diajukan",
+    "text3": "Pelajari bagaimana BRIAMCO menghubungkan advisori strategis dengan teknologi dan pelaksanaan praktis."
+  },
+  "FooterSection": {
+    "footerLinks": {
+      "Services": [
+        "Strategi & Komunikasi",
+        "Konsultasi Manajemen",
+        "Advisori Keuangan",
+        "Risiko & Ketahanan",
+        "SDM & Organisasi"
+      ],
+      "Company": [
+        "Perusahaan Kami",
+        "Tim Kami",
+        "Perspektif Pendampingan",
+        "Berita & Wawasan",
+        "Kontak"
+      ],
+      "Explore": [
+        "Transformasi Bisnis",
+        "Strategi Digital",
+        "Kepemimpinan",
+        "Kesiapan Organisasi",
+        "Diskusikan Prioritas Anda"
+      ]
+    },
+    "src1": "/logo.svg",
+    "alt2": "BRIAMCO Logo",
+    "text3": "Menghubungkan strategi, teknologi, dan pelaksanaan praktis untuk membantu organisasi menghadapi perubahan dan menciptakan nilai berkelanjutan.",
+    "text4": "\u00a9",
+    "text5": "BRIAMCO. Hak cipta dilindungi.",
+    "text6": "Kebijakan Privasi",
+    "text7": "Ketentuan Layanan",
+    "text8": "Kebijakan Cookie"
+  },
+  "HeroSection": {
+    "marqueeItems": [
+      "Strategi & Komunikasi",
+      "Manajemen & Transformasi",
+      "Advisori Keuangan",
+      "Risiko & Ketahanan",
+      "SDM & Organisasi"
+    ],
+    "stats": [
+      {
+        "value": "01",
+        "label": "Strategi \u2014 Menghubungkan ambisi bisnis dengan prioritas yang jelas dan keputusan yang praktis."
+      },
+      {
+        "value": "02",
+        "label": "Teknologi \u2014 Membangun fondasi digital yang mendukung transformasi dan pertumbuhan."
+      },
+      {
+        "value": "03",
+        "label": "Ketahanan \u2014 Memahami risiko pada operasi, reputasi, dan pemangku kepentingan."
+      },
+      {
+        "value": "04",
+        "label": "SDM \u2014 Menempatkan kepemimpinan dan kapabilitas organisasi sebagai inti perubahan."
+      }
+    ],
+    "href1": "mailto:hello@briamco.com",
+    "text2": "hello@briamco.com",
+    "text3": "Hubungi BRIAMCO untuk detail kantor",
+    "text4": "Sen\u2013Jum, 08.00\u201317.00 WIB",
+    "text5": "STRATEGI, TEKNOLOGI & ADVISORI BISNIS",
+    "text6": "Membantu Pemimpin Menghadapi Perubahan",
+    "text7": "dan Menciptakan Nilai Berkelanjutan",
+    "text8": "BRIAMCO memadukan strategi, teknologi, dan pelaksanaan praktis untuk membantu pemimpin bisnis menghadapi kompleksitas, memperkuat ketahanan, dan mencapai pertumbuhan berkelanjutan.",
+    "text9": "Diskusikan Prioritas Bisnis Anda",
+    "text10": "JL",
+    "text11": "MS",
+    "text12": "AK",
+    "text13": "Strategi yang terhubung dengan pelaksanaan praktis",
+    "src14": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1800&q=80",
+    "alt15": "Enterprise engineers and technology leads collaborating in modern development lab"
+  },
+  "NavBar": {
+    "navLinks": [
+      {
+        "label": "Layanan",
+        "href": "/services",
+        "type": "services"
+      },
+      {
+        "label": "Tim",
+        "href": "/people",
+        "type": "link"
+      },
+      {
+        "label": "Wawasan",
+        "href": "/insight/blog",
+        "type": "link"
+      },
+      {
+        "label": "Berita",
+        "href": "/insight/news",
+        "type": "link"
+      },
+      {
+        "label": "Karier",
+        "href": "/careers",
+        "type": "link"
+      }
+    ],
+    "src1": "/logo.svg",
+    "alt2": "BRIAMCO Logo",
+    "text3": "EN",
+    "text4": "ID",
+    "text5": "English (EN)",
+    "text6": "Bahasa (ID)"
+  },
+  "ServicesSection": {
+    "tabs": [
+      {
+        "name": "Advisory",
+        "services": [
+          {
+            "title": "Strategi & Komunikasi",
+            "desc": "Selaraskan tujuan bisnis, reputasi, dan hubungan pemangku kepentingan melalui strategi yang jelas.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "Konsultasi Manajemen",
+            "desc": "Hadapi perubahan penting dengan analisis terarah, keselarasan organisasi, dan pelaksanaan yang praktis.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "Pendampingan Keuangan",
+            "desc": "Kaji pilihan, perkuat keputusan keuangan, dan lindungi nilai di setiap tahap bisnis.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "Pendampingan Risiko",
+            "desc": "Pahami ancaman yang berkembang dan bangun ketahanan operasional, teknologi, serta reputasi.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "Pendampingan SDM",
+            "desc": "Hubungkan kepemimpinan, desain organisasi, dan talenta dengan kebutuhan bisnis ke depan.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          }
+        ]
+      }
+    ],
+    "text1": "Jelajahi Layanan Kami",
+    "text2": "Solusi yang Kami Tawarkan",
+    "text3": "untuk Kebutuhan Anda",
+    "text4": "Advisori terpadu bagi pemimpin bisnis di bidang strategi, transformasi, keuangan, risiko, dan organisasi, didukung keahlian teknologi serta fokus pada pelaksanaan.",
+    "text5": "Lihat Semua Layanan",
+    "text6": "(",
+    "text7": ")",
+    "text8": "Detail Layanan"
+  },
+  "SolutionsSection": {
+    "solutions": [
+      {
+        "label": "Startup & Bisnis Berkembang",
+        "title": "Strategi Pertumbuhan & Kesiapan Bisnis",
+        "desc": "Selaraskan prioritas pertumbuhan, posisi pasar, dan kapabilitas organisasi Anda dengan rencana pelaksanaan yang praktis.",
+        "features": [
+          "Memperjelas prioritas strategis",
+          "Menilai kesiapan organisasi",
+          "Menyusun peta jalan yang dapat diterapkan",
+          "Meninjau kemajuan dan beradaptasi"
+        ],
+        "img": "Startup engineering team pairing on new code releases",
+        "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+      },
+      {
+        "label": "Skala Perusahaan",
+        "title": "Transformasi & Ketahanan Perusahaan",
+        "desc": "Hadapi perubahan yang kompleks dengan menghubungkan strategi, model operasi, teknologi, dan pemahaman risiko.",
+        "features": [
+          "Memperjelas prioritas strategis",
+          "Menilai kesiapan organisasi",
+          "Menyusun peta jalan yang dapat diterapkan",
+          "Meninjau kemajuan dan beradaptasi"
+        ],
+        "img": "Enterprise systems engineers monitoring distributed cloud metrics",
+        "photo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80"
+      }
+    ],
+    "text1": "Solusi Sesuai Kebutuhan",
+    "text2": "Advisori untuk Setiap Tahap Perubahan",
+    "text3": "Hubungkan prioritas bisnis dengan peta jalan yang dapat diterapkan, baik untuk membangun pertumbuhan maupun mentransformasi organisasi yang telah mapan.",
+    "text4": "Mulai Sekarang"
+  },
+  "TeamSection": {
+    "team": [
+      {
+        "name": "Penasihat Strategi",
+        "role": "Profil akan dikonfirmasi",
+        "initials": "SA",
+        "color": "#0d1b2a",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Penasihat Transformasi",
+        "role": "Profil akan dikonfirmasi",
+        "initials": "TA",
+        "color": "#1e3a5f",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Penasihat Risiko",
+        "role": "Profil akan dikonfirmasi",
+        "initials": "RA",
+        "color": "#2563eb",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Penasihat Teknologi",
+        "role": "Profil akan dikonfirmasi",
+        "initials": "DA",
+        "color": "#1a2e44",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "text1": "Tim Kami",
+    "text2": "Kenali Perspektif Advisori Kami",
+    "text3": "Ilustrasi profil penasihat menunjukkan bagaimana perspektif yang saling melengkapi dapat mendukung prioritas Anda. Biografi tim yang telah dikonfirmasi dapat dikelola di sini melalui CMS.",
+    "text4": "in",
+    "text5": "@"
+  },
+  "TestimonialsSection": {
+    "testimonials": [
+      {
+        "name": "Ilustrasi pendampingan 1",
+        "role": "Contoh editorial \u2014 bukan testimoni klien",
+        "text": "Menyelaraskan pimpinan melalui strategi yang jelas dan peta jalan yang praktis.",
+        "rating": 5,
+        "initials": "SM",
+        "color": "#2563eb"
+      },
+      {
+        "name": "Ilustrasi pendampingan 2",
+        "role": "Contoh editorial \u2014 bukan testimoni klien",
+        "text": "Menghubungkan transformasi dengan model operasi yang mendukung pelaksanaan yang bertanggung jawab.",
+        "rating": 5,
+        "initials": "DC",
+        "color": "#1d4ed8"
+      },
+      {
+        "name": "Ilustrasi pendampingan 3",
+        "role": "Contoh editorial \u2014 bukan testimoni klien",
+        "text": "Menilai ketidakpastian pada operasi dan pemangku kepentingan untuk memperkuat ketahanan.",
+        "rating": 5,
+        "initials": "AH",
+        "color": "#0d1b2a"
+      },
+      {
+        "name": "Ilustrasi pendampingan 4",
+        "role": "Contoh editorial \u2014 bukan testimoni klien",
+        "text": "Membangun kapabilitas organisasi yang mendukung pertumbuhan berkelanjutan.",
+        "rating": 5,
+        "initials": "RW",
+        "color": "#1e3a5f"
+      }
+    ],
+    "src1": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1800&q=80",
+    "alt2": "High-tech enterprise datacenter and cloud facility",
+    "text3": "Perspektif Pendampingan",
+    "text4": "Menghubungkan Advisori dengan Prioritas Bisnis",
+    "text5": "Ilustrasi tema pendampingan menunjukkan bagaimana strategi, transformasi, risiko, dan SDM dapat bekerja bersama. Ini merupakan contoh editorial, bukan dukungan dari klien."
+  },
+  "TrustedBySection": {
+    "text1": "Berfokus pada",
+    "text2": "bisnis",
+    "text3": "prioritas & tim pimpinan",
+    "text4": "MARKETING",
+    "text5": "AGENCY SLOGAN",
+    "text6": "Carriest",
+    "text7": "SLOGAN HERE",
+    "text8": "Alohu",
+    "text9": "THE GAME",
+    "text10": "Minest",
+    "text11": "AUTOMATION",
+    "text12": "Success",
+    "text13": "GOOD PEOPLE",
+    "text14": "Minest",
+    "text15": "AUTOMATION"
+  },
+  "AdvisoryPage": {
+    "hero": "Mitra Strategis\nuntuk Bisnis Anda",
+    "subtitle": "Pendampingan terpadu bagi pemimpin bisnis di tengah perubahan.",
+    "statement": "Kami menyatukan keahlian strategis dan berbagai layanan untuk menjawab tantangan bisnis Anda yang paling kompleks.",
+    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+    "statementImage": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=2200&q=85",
+    "servicesTitle": "Layanan Kami",
+    "servicesIntro": "Keahlian khusus. Perspektif terpadu. Pendampingan sesuai prioritas bisnis Anda.",
+    "servicesCta": "Jelajahi seluruh layanan",
+    "peopleTitle": "Tim Kami",
+    "peopleIntro": "Pendampingan yang baik dimulai dari pemahaman yang mendalam. Kami bekerja bersama pemimpin bisnis untuk menyatukan perspektif dan mewujudkan keputusan menjadi tindakan.",
+    "peopleCta": "Kenali tim kami",
+    "careersTitle": "Bergabung dengan Kami",
+    "careersIntro": "Hadirkan perspektif Anda untuk tantangan yang berarti. Kami menghargai rasa ingin tahu, kolaborasi, dan semangat untuk membantu organisasi berkembang.",
+    "careersCta": "Mulai percakapan",
+    "careersImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2200&q=85",
+    "insightsTitle": "Gagasan untuk kemajuan bisnis",
+    "insightsCta": "Jelajahi wawasan",
+    "officeTitle": "Terhubung dengan BRIAMCO",
+    "officeIntro": "Percakapan adalah langkah pertama. Ceritakan prioritas Anda dan temukan keahlian yang tepat.",
+    "officeEmail": "solutions@briamco.com",
+    "firmTitle": "Tentang Kami",
+    "firmIntro": "BRIAMCO menyatukan strategi, komunikasi, keuangan, risiko, dan sumber daya manusia untuk membantu pemimpin bisnis memahami kompleksitas dan menentukan langkah ke depan.",
+    "people": [
+      {
+        "name": "Strategi & Komunikasi",
+        "role": "Kejelasan, reputasi, dan kepercayaan pemangku kepentingan",
+        "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85"
+      },
+      {
+        "name": "Pendampingan Bisnis",
+        "role": "Transformasi, ketahanan, dan nilai jangka panjang",
+        "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2200&q=85"
+      }
+    ]
+  },
+  "CareersPage": {
+    "heroTitle": "Bergabung dengan Kami",
+    "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2200&q=85",
+    "overviewTab": "Ikhtisar",
+    "purposeTab": "Tujuan & Nilai Kami",
+    "benefitsTab": "Bekerja di BRIAMCO",
+    "positionsTab": "Lowongan Terbuka",
+    "overviewTitle": "Seperti apa bekerja di BRIAMCO?",
+    "overviewLead": "Hadirkan perspektif Anda untuk peluang dan tantangan bisnis yang berarti.",
+    "overviewBody": "Kami menghubungkan pemikiran strategis dengan pelaksanaan praktis. Berbagai disiplin, perspektif, dan pengalaman bertemu untuk membantu organisasi melangkah maju.",
+    "overviewBody2": "Kenali budaya kami dan temukan bagaimana rasa ingin tahu, keahlian, serta ambisi Anda dapat memberikan dampak.",
+    "positionsCta": "Jelajahi Lowongan",
+    "cultureLabel": "Filosofi kerja kami",
+    "cultureQuote": "Gagasan terbaik tumbuh ketika kita mendengarkan dengan saksama, menguji pemikiran secara terbuka, dan bekerja bersama dengan tujuan yang jelas.",
+    "cultureAuthor": "BRIAMCO",
+    "cultureRole": "Perspektif. Kemitraan. Kemajuan.",
+    "purposeTitle": "Tujuan Kami",
+    "purposeText": "Bermitra dengan organisasi untuk mengubah tantangan kompleks menjadi kemajuan yang berarti.",
+    "valuesTitle": "Nilai Kami",
+    "bannerTitle": "Temukan peluang karier yang tepat untuk Anda.",
+    "bannerBody": "Hadirkan rasa ingin tahu dan semangat kolaborasi Anda. Jelajahi peluang berikut dan temukan peran yang sesuai pengalaman serta aspirasi Anda.",
+    "bannerImage": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85",
+    "benefitsTitle": "Bekerja di BRIAMCO",
+    "benefitsIntro": "Lingkungan yang dibangun melalui pembelajaran, kolaborasi, dan pekerjaan yang bermakna.",
+    "positionsTitle": "Lowongan Terbuka",
+    "searchPlaceholder": "Cari Lowongan",
+    "allSegments": "Semua Bidang Bisnis",
+    "allLocations": "Semua Lokasi",
+    "emptyTitle": "Belum ada lowongan terbuka",
+    "emptyText": "Kunjungi kembali untuk peluang terbaru atau hubungi kami untuk menyampaikan minat Anda.",
+    "noResults": "Tidak ada lowongan yang cocok. Gunakan kata lain atau atur ulang filter.",
+    "resetLabel": "Atur ulang filter",
+    "interestLabel": "Sampaikan minat Anda",
+    "applyLabel": "Lamar posisi ini",
+    "values": [
+      {
+        "title": "Fokus pada Klien",
+        "description": "Pahami konteks, ajukan pertanyaan yang tepat, dan fokus pada hasil yang berarti."
+      },
+      {
+        "title": "Bertumbuh Bersama",
+        "description": "Berbagi pengetahuan, belajar dari pengalaman, dan membantu pengembangan kemampuan."
+      },
+      {
+        "title": "Kolaborasi",
+        "description": "Satukan disiplin dan perspektif untuk menjawab tantangan kompleks."
+      },
+      {
+        "title": "Inklusi & Inisiatif",
+        "description": "Dengarkan beragam pengalaman dan beri ruang bagi gagasan serta tindakan konstruktif."
+      },
+      {
+        "title": "Keterbukaan & Kepercayaan",
+        "description": "Sampaikan pendapat dengan bijak, dengarkan secara aktif, dan bangun kepercayaan melalui dialog."
+      },
+      {
+        "title": "Integritas & Tanggung Jawab",
+        "description": "Bertanggung jawab atas keputusan dan menghormati rekan serta pemangku kepentingan."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Pembelajaran & Pengembangan",
+        "description": "Kembangkan kemampuan melalui perspektif baru, tantangan praktis, dan pembelajaran bersama."
+      },
+      {
+        "title": "Tim yang Kolaboratif",
+        "description": "Bekerja bersama rekan dengan pengalaman dan cara berpikir yang saling melengkapi."
+      },
+      {
+        "title": "Pekerjaan Bermakna",
+        "description": "Hubungkan kontribusi Anda dengan prioritas dan kemajuan organisasi yang kami dampingi."
+      },
+      {
+        "title": "Pola Pikir Kepemimpinan",
+        "description": "Bangun pertimbangan untuk mengajukan pertanyaan yang tepat dan bertanggung jawab atas pekerjaan."
+      },
+      {
+        "title": "Perspektif Beragam",
+        "description": "Belajar dari beragam latar belakang dan pendekatan dalam memecahkan masalah."
+      },
+      {
+        "title": "Pertumbuhan Profesional",
+        "description": "Jelajahi kesempatan memperdalam keahlian seiring perkembangan bisnis dan peran Anda."
+      }
+    ]
+  },
+  "PeoplePage": {
+    "title": "Tim Kami",
+    "heroImage": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85",
+    "overviewTab": "Ikhtisar",
+    "directoryTab": "Direktori Tim",
+    "executiveTab": "Komite Eksekutif",
+    "managementTab": "Komite Manajemen",
+    "advisorsTab": "Penasihat Senior",
+    "directoryTitle": "Direktori Tim",
+    "searchPlaceholder": "Cari berdasarkan Nama",
+    "segmentLabel": "Bidang Bisnis",
+    "practiceLabel": "Bidang Keahlian",
+    "locationLabel": "Lokasi Kantor",
+    "allTitle": "Seluruh Tim",
+    "overviewLead": "Beragam perspektif. Tujuan bersama. Tim kami menghadirkan keahlian dan kolaborasi untuk keputusan bisnis Anda yang paling penting.",
+    "overviewBody": "Kami menghubungkan strategi, komunikasi, keuangan, risiko, dan sumber daya manusia. Kami mendengarkan untuk memahami konteks, menyatukan perspektif yang tepat, dan berfokus pada kemajuan nyata.",
+    "overviewImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=85",
+    "expertsTab": "Keahlian per Bidang Bisnis",
+    "approachTab": "Pendekatan Kami",
+    "cultureTab": "Budaya & Nilai Kami",
+    "approachTitle": "Bagian dari perjalanan tim Anda",
+    "approachBody": "Kami mendampingi pimpinan untuk memahami prioritas, menguji asumsi, dan menghubungkan saran dengan pelaksanaan. Setiap kerja sama dimulai dari pemahaman bersama tentang hasil yang berarti.",
+    "cultureTitle": "Kolaborasi, rasa ingin tahu, dan tanggung jawab",
+    "cultureBody": "Kami menghargai beragam pengalaman dan dialog yang terbuka. Berbagi pengetahuan, mengambil tanggung jawab, dan saling menghormati membentuk cara kami bekerja.",
+    "quote": "Keputusan yang lebih baik dimulai dengan mendengarkan, menyatukan perspektif, dan mengajukan pertanyaan yang tepat.",
+    "quoteLabel": "Perspektif kami",
+    "quoteAuthor": "BRIAMCO",
+    "emptyTitle": "Direktori tim sedang diperbarui",
+    "emptyBody": "Hubungi kami untuk menemukan keahlian yang Anda butuhkan.",
+    "noResults": "Tidak ada profil yang cocok. Gunakan kata lain atau atur ulang filter.",
+    "resetLabel": "Atur ulang filter",
+    "contactLabel": "Hubungi kami",
+    "backLabel": "Kembali ke Tim",
+    "bioLabel": "Biografi"
+  }
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "key": "example-1",
+    "name": "Marketing Agency",
+    "imageUrl": "/partners/partner-example-1.svg",
+    "logoAlt": "Marketing Agency logo",
+    "order": 0,
+    "visible": true,
+    "isExample": true,
+    "id": "example-1",
+    "website": ""
+  },
+  {
+    "key": "example-2",
+    "name": "Carriest",
+    "imageUrl": "/partners/partner-example-2.svg",
+    "logoAlt": "Carriest logo",
+    "order": 1,
+    "visible": true,
+    "isExample": true,
+    "id": "example-2",
+    "website": ""
+  },
+  {
+    "key": "example-3",
+    "name": "Alohu",
+    "imageUrl": "/partners/partner-example-3.svg",
+    "logoAlt": "Alohu logo",
+    "order": 2,
+    "visible": true,
+    "isExample": true,
+    "id": "example-3",
+    "website": ""
+  },
+  {
+    "key": "example-4",
+    "name": "Minest",
+    "imageUrl": "/partners/partner-example-4.svg",
+    "logoAlt": "Minest logo",
+    "order": 3,
+    "visible": true,
+    "isExample": true,
+    "id": "example-4",
+    "website": ""
+  },
+  {
+    "key": "example-5",
+    "name": "Success",
+    "imageUrl": "/partners/partner-example-5.svg",
+    "logoAlt": "Success logo",
+    "order": 4,
+    "visible": true,
+    "isExample": true,
+    "id": "example-5",
+    "website": ""
+  },
+  {
+    "key": "example-6",
+    "name": "Minest",
+    "imageUrl": "/partners/partner-example-6.svg",
+    "logoAlt": "Minest logo",
+    "order": 5,
+    "visible": true,
+    "isExample": true,
+    "id": "example-6",
+    "website": ""
+  }
+]

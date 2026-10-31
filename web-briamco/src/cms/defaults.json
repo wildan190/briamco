@@ -1,0 +1,606 @@
+{
+  "AboutSection": {
+    "points": [
+      {
+        "title": "Integrated Advice",
+        "desc": "Connect strategy, communications, technology and operational priorities through a shared view of the business."
+      },
+      {
+        "title": "Practical Execution",
+        "desc": "Translate decisions into clear workstreams, accountable teams and measurable progress."
+      },
+      {
+        "title": "Collaborative Perspective",
+        "desc": "Work alongside your organization to understand the wider landscape and build capabilities for the future."
+      }
+    ],
+    "src1": "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=80",
+    "alt2": "Software engineering team collaborating on distributed systems",
+    "src3": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=600&q=80",
+    "alt4": "Tech architects reviewing system design diagrams",
+    "text5": "360\u00b0",
+    "text6": "Business Perspective",
+    "text7": "About BRIAMCO",
+    "text8": "An Integrated Perspective",
+    "text9": "on Your Business Priorities",
+    "text10": "BRIAMCO connects strategic advice with technology expertise to help organizations make informed decisions and turn complex challenges into actionable plans. We work alongside leadership teams, aligning business priorities, people and execution.",
+    "text11": "Build With Us"
+  },
+  "BlogSection": {
+    "articles": [],
+    "text1": "NEWS & INSIGHTS",
+    "text2": "Perspectives on ",
+    "text3": "Business, Change ",
+    "text4": "& Leadership",
+    "text5": "Explore original BRIAMCO perspectives on strategy, transformation, technology and risk.",
+    "text6": "Explore Insights",
+    "text7": "Read More"
+  },
+  "ContactSection": {
+    "src1": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
+    "alt2": "Diverse corporate leadership team reviewing business strategy on laptop",
+    "text3": "DISCUSS YOUR BUSINESS PRIORITIES",
+    "text4": "Ready to Navigate Change?",
+    "text5": "Let\u2019s Discuss Your Business Goals",
+    "text6": "Address",
+    "text7": "Office details to be confirmed",
+    "text8": "Contact us using the form",
+    "text9": "Contact",
+    "href10": "mailto:solutions@briamco.com",
+    "text11": "solutions@briamco.com",
+    "href12": "#contact",
+    "text13": "Use the consultation form",
+    "text14": "Consultation Requested!",
+    "text15": "Thank you,",
+    "text16": ". Your inquiry has been saved for the BRIAMCO team to review.",
+    "text17": "Send Another Request",
+    "text18": "Schedule a Consultation",
+    "text19": "Integrated Perspective",
+    "text20": "Practical Roadmap",
+    "text21": "Clear Priorities",
+    "placeholder22": "Your Name",
+    "placeholder23": "Email",
+    "placeholder24": "Subject",
+    "placeholder25": "Write a Message"
+  },
+  "CtaBanner": {
+    "stats": [
+      {
+        "value": "01",
+        "label": "Strategy \u2014 Connect business ambition with clear priorities and practical decisions.",
+        "icon": "folder"
+      },
+      {
+        "value": "02",
+        "label": "Technology \u2014 Build digital foundations that support transformation and growth.",
+        "icon": "star"
+      },
+      {
+        "value": "03",
+        "label": "Resilience \u2014 Understand risk across operations, reputation and stakeholders.",
+        "icon": "briefcase"
+      },
+      {
+        "value": "04",
+        "label": "People \u2014 Put leadership and organizational capability at the center of change.",
+        "icon": "building"
+      }
+    ],
+    "text1": "Ready to Transform?",
+    "text2": "Building Resilient Businesses",
+    "text3": "for the Future",
+    "text4": "Connect strategic thinking with practical execution. Discuss how BRIAMCO can support your next business priority.",
+    "text5": "Schedule Consultation",
+    "text6": "Explore Solutions"
+  },
+  "FaqSection": {
+    "faqs": [
+      {
+        "q": "What does BRIAMCO help organizations achieve?",
+        "a": "We help leadership teams clarify strategic priorities, plan transformation and connect advice with practical execution."
+      },
+      {
+        "q": "How do you begin an engagement?",
+        "a": "We discuss your business objectives, then agree the scope, deliverables and responsibilities before work begins."
+      },
+      {
+        "q": "Can services be combined?",
+        "a": "An engagement can bring together strategy, communications, technology and organizational priorities according to your needs."
+      },
+      {
+        "q": "How is sensitive information handled?",
+        "a": "Confidentiality, access and information handling requirements are agreed as part of the engagement scope."
+      },
+      {
+        "q": "How can we contact the team?",
+        "a": "Use the consultation form to share your priorities. Your message is saved for the team to review."
+      }
+    ],
+    "text1": "Got Questions?",
+    "text2": "Frequently Asked Questions",
+    "text3": "Learn how BRIAMCO connects strategic advice with technology and practical execution."
+  },
+  "FooterSection": {
+    "footerLinks": {
+      "Services": [
+        "Strategy & Communications",
+        "Management Consulting",
+        "Financial Advisory",
+        "Risk & Resilience",
+        "People & Organization"
+      ],
+      "Company": [
+        "Our Firm",
+        "Our People",
+        "Engagement Perspectives",
+        "News & Insights",
+        "Contact"
+      ],
+      "Explore": [
+        "Business Transformation",
+        "Digital Strategy",
+        "Leadership",
+        "Organizational Readiness",
+        "Discuss Your Priorities"
+      ]
+    },
+    "src1": "/logo.svg",
+    "alt2": "BRIAMCO Logo",
+    "text3": "Connecting strategy, technology and practical execution to help organizations navigate change and build lasting value.",
+    "text4": "\u00a9",
+    "text5": "BRIAMCO. All rights reserved.",
+    "text6": "Privacy Policy",
+    "text7": "Terms of Service",
+    "text8": "Cookie Policy"
+  },
+  "HeroSection": {
+    "marqueeItems": [
+      "Strategy & Communications",
+      "Management & Transformation",
+      "Financial Advisory",
+      "Risk & Resilience",
+      "People & Organization"
+    ],
+    "stats": [
+      {
+        "value": "01",
+        "label": "Strategy \u2014 Connect business ambition with clear priorities and practical decisions."
+      },
+      {
+        "value": "02",
+        "label": "Technology \u2014 Build digital foundations that support transformation and growth."
+      },
+      {
+        "value": "03",
+        "label": "Resilience \u2014 Understand risk across operations, reputation and stakeholders."
+      },
+      {
+        "value": "04",
+        "label": "People \u2014 Put leadership and organizational capability at the center of change."
+      }
+    ],
+    "href1": "mailto:hello@briamco.com",
+    "text2": "hello@briamco.com",
+    "text3": "Contact BRIAMCO for office details",
+    "text4": "Mon\u2013Fri, 08:00\u201317:00 WIB",
+    "text5": "STRATEGY, TECHNOLOGY & BUSINESS ADVISORY",
+    "text6": "Helping Leaders Navigate Change",
+    "text7": "and Build Lasting Value",
+    "text8": "BRIAMCO brings strategy, technology and practical execution together to help business leaders navigate complexity, strengthen resilience and pursue sustainable growth.",
+    "text9": "Discuss Your Business Priorities",
+    "text10": "JL",
+    "text11": "MS",
+    "text12": "AK",
+    "text13": "Strategy connected to practical execution",
+    "src14": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1800&q=80",
+    "alt15": "Enterprise engineers and technology leads collaborating in modern development lab"
+  },
+  "NavBar": {
+    "navLinks": [
+      {
+        "label": "Services",
+        "href": "/services",
+        "type": "services"
+      },
+      {
+        "label": "People",
+        "href": "/people",
+        "type": "link"
+      },
+      {
+        "label": "Insights",
+        "href": "/insight/blog",
+        "type": "link"
+      },
+      {
+        "label": "News",
+        "href": "/insight/news",
+        "type": "link"
+      },
+      {
+        "label": "Careers",
+        "href": "/careers",
+        "type": "link"
+      }
+    ],
+    "src1": "/logo.svg",
+    "alt2": "BRIAMCO Logo",
+    "text3": "EN",
+    "text4": "ID",
+    "text5": "English (EN)",
+    "text6": "Bahasa (ID)"
+  },
+  "ServicesSection": {
+    "tabs": [
+      {
+        "name": "Advisory",
+        "services": [
+          {
+            "title": "Strategy & Communications",
+            "desc": "Align business objectives, reputation and stakeholder engagement through a clear strategic narrative.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "Management Consulting",
+            "desc": "Navigate critical moments of change with focused analysis, organizational alignment and practical execution.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "Financial Advisory",
+            "desc": "Assess options, strengthen financial decision-making and protect value throughout the business lifecycle.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "Risk Advisory",
+            "desc": "Understand emerging threats and build resilience across operations, technology and reputation.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          },
+          {
+            "title": "People Advisory",
+            "desc": "Connect leadership, organizational design and talent with the capabilities your business needs next.",
+            "features": [
+              "Assessment",
+              "Strategy",
+              "Execution"
+            ],
+            "photo1": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "photo2": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+            "img1": "Business advisory",
+            "img2": "Business advisory"
+          }
+        ]
+      }
+    ],
+    "text1": "Explore Our Service",
+    "text2": "What We are Offering",
+    "text3": "to Our Potential Client",
+    "text4": "Integrated advice for business leaders across strategy, transformation, finance, risk and organization, supported by technology expertise and a focus on execution.",
+    "text5": "View All Services",
+    "text6": "(",
+    "text7": ")",
+    "text8": "Service Details"
+  },
+  "SolutionsSection": {
+    "solutions": [
+      {
+        "label": "Startups & Scaleups",
+        "title": "Growth Strategy & Business Readiness",
+        "desc": "Align your growth priorities, market positioning and organizational capabilities with a practical plan for execution.",
+        "features": [
+          "Clarify strategic priorities",
+          "Assess organizational readiness",
+          "Build an actionable roadmap",
+          "Review progress and adapt"
+        ],
+        "img": "Startup engineering team pairing on new code releases",
+        "photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+      },
+      {
+        "label": "Enterprise Scale",
+        "title": "Enterprise Transformation & Resilience",
+        "desc": "Navigate complex change by connecting strategy, operating models, technology and risk awareness.",
+        "features": [
+          "Clarify strategic priorities",
+          "Assess organizational readiness",
+          "Build an actionable roadmap",
+          "Review progress and adapt"
+        ],
+        "img": "Enterprise systems engineers monitoring distributed cloud metrics",
+        "photo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80"
+      }
+    ],
+    "text1": "Tailored Solutions",
+    "text2": "Advice for Every Stage of Change",
+    "text3": "Connect business priorities with an actionable roadmap, whether you are building for growth or transforming an established organization.",
+    "text4": "Get Started"
+  },
+  "TeamSection": {
+    "team": [
+      {
+        "name": "Strategy Advisor",
+        "role": "Profile to be confirmed",
+        "initials": "SA",
+        "color": "#0d1b2a",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Transformation Advisor",
+        "role": "Profile to be confirmed",
+        "initials": "TA",
+        "color": "#1e3a5f",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Risk Advisor",
+        "role": "Profile to be confirmed",
+        "initials": "RA",
+        "color": "#2563eb",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "name": "Technology Advisor",
+        "role": "Profile to be confirmed",
+        "initials": "DA",
+        "color": "#1a2e44",
+        "img": "Illustrative advisor portrait",
+        "photo": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&w=600&q=80"
+      }
+    ],
+    "text1": "Our People",
+    "text2": "Meet Our Advisory Perspectives",
+    "text3": "Illustrative advisory profiles show how complementary perspectives can support your priorities. Confirmed team biographies can be maintained here through the CMS.",
+    "text4": "in",
+    "text5": "@"
+  },
+  "TestimonialsSection": {
+    "testimonials": [
+      {
+        "name": "Illustrative engagement 1",
+        "role": "Editorial example \u2014 not a client testimonial",
+        "text": "Align leadership around a clear strategy and practical roadmap.",
+        "rating": 5,
+        "initials": "SM",
+        "color": "#2563eb"
+      },
+      {
+        "name": "Illustrative engagement 2",
+        "role": "Editorial example \u2014 not a client testimonial",
+        "text": "Connect transformation with an operating model that supports accountable delivery.",
+        "rating": 5,
+        "initials": "DC",
+        "color": "#1d4ed8"
+      },
+      {
+        "name": "Illustrative engagement 3",
+        "role": "Editorial example \u2014 not a client testimonial",
+        "text": "Assess uncertainty across operations and stakeholders to strengthen resilience.",
+        "rating": 5,
+        "initials": "AH",
+        "color": "#0d1b2a"
+      },
+      {
+        "name": "Illustrative engagement 4",
+        "role": "Editorial example \u2014 not a client testimonial",
+        "text": "Build organizational capabilities that support sustainable growth.",
+        "rating": 5,
+        "initials": "RW",
+        "color": "#1e3a5f"
+      }
+    ],
+    "src1": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1800&q=80",
+    "alt2": "High-tech enterprise datacenter and cloud facility",
+    "text3": "Engagement Perspectives",
+    "text4": "Connecting Advice with Business Priorities",
+    "text5": "Illustrative engagement themes show how strategy, transformation, risk and people can work together. These are editorial examples, not client endorsements."
+  },
+  "TrustedBySection": {
+    "text1": "Focused on",
+    "text2": "business",
+    "text3": "priorities & leadership teams",
+    "text4": "MARKETING",
+    "text5": "AGENCY SLOGAN",
+    "text6": "Carriest",
+    "text7": "SLOGAN HERE",
+    "text8": "Alohu",
+    "text9": "THE GAME",
+    "text10": "Minest",
+    "text11": "AUTOMATION",
+    "text12": "Success",
+    "text13": "GOOD PEOPLE",
+    "text14": "Minest",
+    "text15": "AUTOMATION"
+  },
+  "AdvisoryPage": {
+    "hero": "The Business\nAdvisory Firm",
+    "subtitle": "Integrated, senior-led counsel for a changing world.",
+    "statement": "We bring together strategic expertise and a breadth of services to solve our clients\u2019 most complex issues.",
+    "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85",
+    "statementImage": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=2200&q=85",
+    "servicesTitle": "Our Service Offering",
+    "servicesIntro": "Specialist expertise. An integrated perspective. Advice shaped around your business.",
+    "servicesCta": "Explore all practice areas",
+    "peopleTitle": "Our People",
+    "peopleIntro": "Great advice starts with a deeper understanding. Our teams work alongside leadership to connect perspectives, challenge assumptions and move from decisions to delivery.",
+    "peopleCta": "Meet our team",
+    "careersTitle": "Join Our Team",
+    "careersIntro": "Bring your perspective to the challenges that matter. We value curiosity, collaboration and the ambition to help organizations move forward.",
+    "careersCta": "Start a conversation",
+    "careersImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2200&q=85",
+    "insightsTitle": "Ideas that move business forward",
+    "insightsCta": "Explore insights",
+    "officeTitle": "Connect with BRIAMCO",
+    "officeIntro": "A conversation is the first step. Tell us about your priorities and connect with the right expertise.",
+    "officeEmail": "solutions@briamco.com",
+    "firmTitle": "Our Firm",
+    "firmIntro": "BRIAMCO brings strategy, communications, finance, risk and people together. We help leadership teams understand complexity and turn their priorities into a clear path forward.",
+    "people": [
+      {
+        "name": "Strategy & Communications",
+        "role": "Clarity, reputation and stakeholder confidence",
+        "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85"
+      },
+      {
+        "name": "Business Advisory",
+        "role": "Transformation, resilience and long-term value",
+        "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2200&q=85"
+      }
+    ]
+  },
+  "CareersPage": {
+    "heroTitle": "Join Our Team",
+    "heroImage": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2200&q=85",
+    "overviewTab": "Overview",
+    "purposeTab": "Our Purpose & Values",
+    "benefitsTab": "Life at BRIAMCO",
+    "positionsTab": "Open Positions",
+    "overviewTitle": "What\u2019s it like to work at BRIAMCO?",
+    "overviewLead": "Bring your perspective to the business opportunities and challenges that matter.",
+    "overviewBody": "We connect strategic thinking with practical execution. Our work brings together different disciplines, perspectives and experiences to help organizations move forward.",
+    "overviewBody2": "Explore our culture and discover where your curiosity, skills and ambition could make a difference.",
+    "positionsCta": "Explore Open Positions",
+    "cultureLabel": "Our working philosophy",
+    "cultureQuote": "The strongest ideas emerge when people listen carefully, challenge thoughtfully and work together with a shared sense of purpose.",
+    "cultureAuthor": "BRIAMCO",
+    "cultureRole": "Perspective. Partnership. Progress.",
+    "purposeTitle": "Our Purpose",
+    "purposeText": "Partnering with organizations to turn complex challenges into meaningful progress.",
+    "valuesTitle": "Our Values",
+    "bannerTitle": "Find the career opportunity that is right for you.",
+    "bannerBody": "Bring your curiosity and collaborative mindset. Explore the opportunities below and find a role aligned with your experience and aspirations.",
+    "bannerImage": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85",
+    "benefitsTitle": "Life at BRIAMCO",
+    "benefitsIntro": "An environment shaped around learning, collaboration and meaningful work.",
+    "positionsTitle": "Open Positions",
+    "searchPlaceholder": "Search Open Positions",
+    "allSegments": "All Business Segments",
+    "allLocations": "All Locations",
+    "emptyTitle": "No open positions at the moment",
+    "emptyText": "Please check back for new opportunities or contact us to express your interest.",
+    "noResults": "No positions match your search. Try another keyword or reset the filters.",
+    "resetLabel": "Reset filters",
+    "interestLabel": "Express your interest",
+    "applyLabel": "Apply for this position",
+    "values": [
+      {
+        "title": "Client Focus",
+        "description": "Understand the context, ask better questions and focus on outcomes that matter."
+      },
+      {
+        "title": "Growing Together",
+        "description": "Share knowledge, learn from experience and help others develop their capabilities."
+      },
+      {
+        "title": "Collaboration",
+        "description": "Connect disciplines and perspectives to build a stronger response to complex challenges."
+      },
+      {
+        "title": "Inclusion & Initiative",
+        "description": "Listen to different experiences and make space for ideas and constructive action."
+      },
+      {
+        "title": "Openness & Trust",
+        "description": "Speak thoughtfully, listen actively and build confidence through honest conversations."
+      },
+      {
+        "title": "Integrity & Accountability",
+        "description": "Take responsibility for decisions and treat colleagues and stakeholders with respect."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Learning & Development",
+        "description": "Build your capabilities through new perspectives, practical challenges and shared learning."
+      },
+      {
+        "title": "Collaborative Teams",
+        "description": "Work alongside colleagues who bring complementary experience and ways of thinking."
+      },
+      {
+        "title": "Meaningful Work",
+        "description": "Connect your contribution with the priorities and progress of the organizations we support."
+      },
+      {
+        "title": "Leadership Mindset",
+        "description": "Develop the judgment to ask useful questions and take ownership of your work."
+      },
+      {
+        "title": "Diverse Perspectives",
+        "description": "Learn from people with different backgrounds and approaches to problem solving."
+      },
+      {
+        "title": "Professional Growth",
+        "description": "Explore opportunities to deepen your expertise as the business and your role develop."
+      }
+    ]
+  },
+  "PeoplePage": {
+    "title": "People",
+    "heroImage": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2200&q=85",
+    "overviewTab": "Overview",
+    "directoryTab": "People Directory",
+    "executiveTab": "Executive Committee",
+    "managementTab": "Management Committee",
+    "advisorsTab": "Senior Advisors",
+    "directoryTitle": "People Directory",
+    "searchPlaceholder": "Search by Name",
+    "segmentLabel": "Business Segments",
+    "practiceLabel": "Practice Areas",
+    "locationLabel": "Office Location",
+    "allTitle": "All People",
+    "overviewLead": "Different perspectives. Shared purpose. Our people bring expertise and thoughtful collaboration to your most important business decisions.",
+    "overviewBody": "Our work connects strategy, communications, finance, risk and people. We listen closely to understand the context, bring the right perspectives together and focus on practical progress.",
+    "overviewImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=85",
+    "expertsTab": "Experts by Business Segment",
+    "approachTab": "Our Approach",
+    "cultureTab": "Our Culture & Values",
+    "approachTitle": "An extension of your team",
+    "approachBody": "We work alongside leadership teams to understand priorities, challenge assumptions and connect advice with delivery. Every engagement starts with a shared understanding of the outcomes that matter.",
+    "cultureTitle": "Collaboration, curiosity and accountability",
+    "cultureBody": "We value different experiences and thoughtful dialogue. Sharing knowledge, taking responsibility and treating people with respect shape how we work together.",
+    "quote": "Better decisions start with listening, bringing different perspectives together and asking the questions that matter.",
+    "quoteLabel": "Our perspective",
+    "quoteAuthor": "BRIAMCO",
+    "emptyTitle": "Our directory is being updated",
+    "emptyBody": "Contact us to connect with the expertise you need.",
+    "noResults": "No people match your search. Try another keyword or reset the filters.",
+    "resetLabel": "Reset filters",
+    "contactLabel": "Contact us",
+    "backLabel": "Back to People",
+    "bioLabel": "Biography"
+  }
+}
