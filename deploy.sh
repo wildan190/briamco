@@ -74,8 +74,10 @@ echo 'Downloading runtime images sequentially...'
 for image in postgres:16-alpine nginx:stable-alpine certbot/certbot:latest; do
   retry_network docker pull "$image"
 done
-echo 'Building production frontend and Strapi images...'
-retry_network "${DC[@]}" build --pull
+echo 'Building production Strapi image (sequential to stay within 1 GB RAM)...'
+retry_network "${DC[@]}" build --pull --no-cache=false strapi
+echo 'Building production frontend image...'
+retry_network "${DC[@]}" build --pull --no-cache=false frontend
 if [[ -n $IMPORT_DIR ]]; then
   [[ -s $IMPORT_DIR/database.dump && -s $IMPORT_DIR/uploads.tar.gz ]] || { echo 'Import requires database.dump and uploads.tar.gz.' >&2; exit 1; }
   # Never overwrite an initialized database, including databases containing enquiries.

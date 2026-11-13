@@ -5,9 +5,20 @@ Target: VPS `163.227.96.70`, domain `subs.sicepot.com`.
 ## Persiapan satu kali
 
 1. Pasang Docker Engine beserta plugin Docker Compose (v2 dengan dukungan `up --wait`), `openssl`, dan `curl` di VPS. Panduan resmi Docker: https://docs.docker.com/engine/install/ubuntu/
-2. Buat DNS record **A**: `subs.sicepot.com` → `163.227.96.70`. Hapus/perbaiki record AAAA apabila belum memakai IPv6. Buka TCP **80 dan 443** pada firewall VPS/provider. Jika memakai Cloudflare, gunakan DNS only saat penerbitan sertifikat pertama.
-3. Salin folder proyek lengkap ke VPS, misalnya `/opt/briamco`. Sertakan source frontend/backend, lockfile, folder `deploy`, dan script. Jangan menyalin `node_modules`, file `.env` lokal, `.tmp`, atau volume Docker lokal ke dalam image.
-4. Pastikan tidak ada Nginx/Apache/container lain yang memakai port 80/443. Script tidak menghentikan service lain secara otomatis.
+2. **[WAJIB untuk VPS 1 GB]** Aktifkan swap 2 GB agar build Strapi tidak OOM:
+   ```bash
+   fallocate -l 2G /swapfile
+   chmod 600 /swapfile
+   mkswap /swapfile
+   swapon /swapfile
+   echo '/swapfile none swap sw 0 0' >> /etc/fstab
+   # Kurangi agresivitas swap saat runtime (hanya pakai swap saat terpaksa):
+   sysctl vm.swappiness=10
+   echo 'vm.swappiness=10' >> /etc/sysctl.conf
+   ```
+3. Buat DNS record **A**: `subs.sicepot.com` → `163.227.96.70`. Hapus/perbaiki record AAAA apabila belum memakai IPv6. Buka TCP **80 dan 443** pada firewall VPS/provider. Jika memakai Cloudflare, gunakan DNS only saat penerbitan sertifikat pertama.
+4. Salin folder proyek lengkap ke VPS, misalnya `/opt/briamco`. Sertakan source frontend/backend, lockfile, folder `deploy`, dan script. Jangan menyalin `node_modules`, file `.env` lokal, `.tmp`, atau volume Docker lokal ke dalam image.
+5. Pastikan tidak ada Nginx/Apache/container lain yang memakai port 80/443. Script tidak menghentikan service lain secara otomatis.
 
 ## Deploy baru
 
