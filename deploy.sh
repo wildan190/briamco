@@ -99,6 +99,7 @@ docker run --rm \
     apt-get update -qq
     apt-get install -y -q --no-install-recommends python3 make g++ libvips-dev
     npm ci --legacy-peer-deps --include=optional --no-audit --no-fund
+    rm -f tsconfig.json
     npm run build
     rm -rf node_modules
   '
