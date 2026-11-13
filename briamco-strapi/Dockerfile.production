@@ -20,9 +20,10 @@ COPY . .
 ARG PUBLIC_URL
 ARG CLIENT_URL
 ENV NODE_ENV=production PUBLIC_URL=$PUBLIC_URL CLIENT_URL=$CLIENT_URL STRAPI_ADMIN_BACKEND_URL=$PUBLIC_URL STRAPI_TELEMETRY_DISABLED=true
-# Limit Node heap to 450 MB so strapi build fits inside a 1 GB VPS.
-# STRAPI_ADMIN_DISABLE_VIDEO_PREVIEW keeps webpack from spawning extra workers.
-ENV NODE_OPTIONS="--max-old-space-size=450" STRAPI_ADMIN_DISABLE_VIDEO_PREVIEW=true
+# Allow Node up to 700 MB heap for the Strapi admin panel build.
+# On a 1 GB VPS this will spill into swap — activate a 2 GB swapfile first
+# (see DEPLOY.md) or the build will OOM-kill just as before.
+ENV NODE_OPTIONS="--max-old-space-size=700"
 # Backend source is CommonJS; the legacy tsconfig has no TypeScript inputs.
 RUN --mount=type=cache,id=briamco-npm,target=/root/.npm,sharing=locked \
     rm -f tsconfig.json && npm run build && npm prune --omit=dev --legacy-peer-deps --prefer-offline --no-audit --no-fund
