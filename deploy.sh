@@ -44,13 +44,61 @@ done
 DC=(docker compose --env-file .env.production -f docker-compose.production.yml)
 "${DC[@]}" config --quiet
 mkdir -p deploy/nginx/runtime
-# Preserve an existing HTTPS configuration on repeat deployments.
+
+# ── SSL certificate helpers ───────────────────────────────────────────────────
+# Cloudflare Origin cert path inside the certificates volume (nginx reads these).
+CF_CERT_VOL_PATH="/etc/letsencrypt/cf/${DOMAIN}/fullchain.pem"
+CF_KEY_VOL_PATH="/etc/letsencrypt/cf/${DOMAIN}/privkey.pem"
+# Let's Encrypt cert path (fallback / legacy path).
+LE_CERT_VOL_PATH="/etc/letsencrypt/live/${DOMAIN}/fullchain.pem"
+
+# Returns 0 (true) if a Cloudflare Origin cert file pair exists in ssl/
+has_cloudflare_cert() {
+  [[ -s ssl/origin.pem && -s ssl/private.key ]]
+}
+
+# Returns 0 if the CF cert is already installed in the certificates volume.
+cf_cert_installed() {
+  docker run --rm \
+    -v briamco-production_certificates:/etc/letsencrypt:ro \
+    busybox sh -c "test -s '${CF_CERT_VOL_PATH}'" 2>/dev/null
+}
+
+# Installs ssl/origin.pem + ssl/private.key into the certificates Docker volume
+# at the path Nginx expects. Idempotent — safe to call on every deploy.
+install_cloudflare_cert() {
+  echo "Installing Cloudflare Origin certificate into certificates volume..."
+  docker run --rm \
+    -v "${PWD}/ssl:/src:ro" \
+    -v briamco-production_certificates:/etc/letsencrypt \
+    busybox sh -ec "
+      mkdir -p /etc/letsencrypt/cf/${DOMAIN}
+      cp /src/origin.pem  ${CF_CERT_VOL_PATH}
+      cp /src/private.key ${CF_KEY_VOL_PATH}
+      chmod 644 ${CF_CERT_VOL_PATH}
+      chmod 600 ${CF_KEY_VOL_PATH}
+    "
+  echo "Cloudflare Origin certificate installed."
+}
+
 write_http() {
   { printf 'server {\n listen 80;\n server_name %s;\n location /.well-known/acme-challenge/ { root /var/www/certbot; }\n' "$DOMAIN"
     cat deploy/nginx/proxy.conf.template
     printf '\n}\n'
   } > deploy/nginx/runtime/default.conf
 }
+
+# write_https_cloudflare — uses the Cloudflare Origin cert paths
+write_https_cloudflare() {
+  { printf 'server {\n listen 80;\n server_name %s;\n location / { return 301 https://$host$request_uri; }\n}\n' "$DOMAIN"
+    printf 'server {\n listen 443 ssl;\n http2 on;\n server_name %s;\n ssl_certificate %s;\n ssl_certificate_key %s;\n ssl_protocols TLSv1.2 TLSv1.3;\n ssl_session_cache shared:SSL:10m;\n' \
+      "$DOMAIN" "$CF_CERT_VOL_PATH" "$CF_KEY_VOL_PATH"
+    cat deploy/nginx/proxy.conf.template
+    printf '\n}\n'
+  } > deploy/nginx/runtime/default.conf
+}
+
+# write_https_letsencrypt — legacy path, used if Let's Encrypt cert is present
 write_https() {
   { printf 'server {\n listen 80;\n server_name %s;\n location /.well-known/acme-challenge/ { root /var/www/certbot; }\n location / { return 301 https://$host$request_uri; }\n}\n' "$DOMAIN"
     printf 'server {\n listen 443 ssl;\n http2 on;\n server_name %s;\n ssl_certificate /etc/letsencrypt/live/%s/fullchain.pem;\n ssl_certificate_key /etc/letsencrypt/live/%s/privkey.pem;\n ssl_protocols TLSv1.2 TLSv1.3;\n ssl_session_cache shared:SSL:10m;\n' "$DOMAIN" "$DOMAIN" "$DOMAIN"
@@ -118,7 +166,18 @@ if [[ -n $IMPORT_DIR ]]; then
   "${DC[@]}" exec -T postgres pg_restore --exit-on-error --no-owner --no-acl -U "$DATABASE_USER" -d "$DATABASE_NAME" < "$IMPORT_DIR/database.dump"
   "${DC[@]}" run --rm --no-deps -T --user root --entrypoint sh strapi -c 'tar -xzf - -C /app/public && chown -R node:node /app/public/uploads' < "$IMPORT_DIR/uploads.tar.gz"
 fi
-if "${DC[@]}" run --rm --no-deps --entrypoint sh certbot -c "test -s /etc/letsencrypt/live/$DOMAIN/fullchain.pem"; then
+# ── SSL: Cloudflare Origin cert takes priority over Let's Encrypt ─────────────
+# If ssl/origin.pem + ssl/private.key exist locally, install them into the
+# certificates volume and use them. Otherwise fall back to Let's Encrypt/certbot.
+USE_CF_SSL=false
+if has_cloudflare_cert; then
+  install_cloudflare_cert
+  write_https_cloudflare
+  USE_CF_SSL=true
+  echo 'Using Cloudflare Origin certificate — skipping certbot.'
+elif docker run --rm \
+       -v briamco-production_certificates:/etc/letsencrypt:ro \
+       busybox sh -c "test -s '${LE_CERT_VOL_PATH}'" 2>/dev/null; then
   write_https
 else
   write_http
@@ -127,17 +186,19 @@ echo 'Starting database, CMS, frontend and Nginx...'
 "${DC[@]}" up -d --pull never --wait --wait-timeout 600 postgres strapi frontend nginx
 "${DC[@]}" exec -T nginx nginx -t
 "${DC[@]}" exec -T nginx nginx -s reload
-email_args=(--register-unsafely-without-email)
-if [[ -n ${LETSENCRYPT_EMAIL:-} ]]; then email_args=(--email "$LETSENCRYPT_EMAIL"); fi
-echo "Obtaining/validating HTTPS certificate. DNS A record must point $DOMAIN to $VPS_IP; ports 80 and 443 must be open."
-if ! "${DC[@]}" run --rm --no-deps certbot certonly --webroot -w /var/www/certbot --non-interactive --agree-tos --keep-until-expiring "${email_args[@]}" -d "$DOMAIN"; then
-  echo 'Certificate issuance failed. Check DNS and port 80, then run ./deploy.sh again. Database volumes were preserved.' >&2
-  exit 1
+if [[ $USE_CF_SSL == false ]]; then
+  email_args=(--register-unsafely-without-email)
+  if [[ -n ${LETSENCRYPT_EMAIL:-} ]]; then email_args=(--email "$LETSENCRYPT_EMAIL"); fi
+  echo "Obtaining/validating HTTPS certificate. DNS A record must point $DOMAIN to $VPS_IP; ports 80 and 443 must be open."
+  if ! "${DC[@]}" run --rm --no-deps certbot certonly --webroot -w /var/www/certbot --non-interactive --agree-tos --keep-until-expiring "${email_args[@]}" -d "$DOMAIN"; then
+    echo 'Certificate issuance failed. Check DNS and port 80, then run ./deploy.sh again. Database volumes were preserved.' >&2
+    exit 1
+  fi
+  write_https
+  "${DC[@]}" exec -T nginx nginx -t
+  "${DC[@]}" exec -T nginx nginx -s reload
+  "${DC[@]}" up -d --pull never certificate-renewal
 fi
-write_https
-"${DC[@]}" exec -T nginx nginx -t
-"${DC[@]}" exec -T nginx nginx -s reload
-"${DC[@]}" up -d --pull never certificate-renewal
 # Verify the public endpoints through this host, independent of DNS caching.
 curl --fail --silent --show-error --resolve "$DOMAIN:443:127.0.0.1" "https://$DOMAIN/_health" -o /dev/null
 curl --fail --silent --show-error --resolve "$DOMAIN:443:127.0.0.1" "https://$DOMAIN/" -o /dev/null
