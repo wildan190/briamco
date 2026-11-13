@@ -11,21 +11,17 @@ ENV NPM_CONFIG_FETCH_RETRIES=5 \
 RUN --mount=type=cache,id=briamco-npm,target=/root/.npm,sharing=locked \
     set -eu; \
     for attempt in 1 2 3; do \
-      if npm ci --legacy-peer-deps --include=optional --prefer-offline --no-audit --no-fund; then exit 0; fi; \
-      if [ "$attempt" -eq 3 ]; then echo "npm install failed after 3 attempts" >&2; exit 1; fi; \
-      echo "npm install interrupted; retrying ($attempt/3)..."; \
-      sleep 10; \
+    if npm ci --legacy-peer-deps --include=optional --prefer-offline --no-audit --no-fund; then exit 0; fi; \
+    if [ "$attempt" -eq 3 ]; then echo "npm install failed after 3 attempts" >&2; exit 1; fi; \
+    echo "npm install interrupted; retrying ($attempt/3)..."; \
+    sleep 10; \
     done
 COPY . .
 ARG PUBLIC_URL
 ARG CLIENT_URL
 ENV NODE_ENV=production PUBLIC_URL=$PUBLIC_URL CLIENT_URL=$CLIENT_URL STRAPI_ADMIN_BACKEND_URL=$PUBLIC_URL STRAPI_TELEMETRY_DISABLED=true
-<<<<<<< Updated upstream
 # Admin panel is pre-built on the host by deploy.sh (via docker run --memory=0, no cgroup limit).
 # This stage only prunes dev-dependencies — no Node build here, so memory stays low.
-=======
-# Backend source is CommonJS; the legacy tsconfig has no TypeScript inputs.
->>>>>>> Stashed changes
 RUN --mount=type=cache,id=briamco-npm,target=/root/.npm,sharing=locked \
     rm -f tsconfig.json && npm prune --omit=dev --legacy-peer-deps --prefer-offline --no-audit --no-fund
 
