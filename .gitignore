@@ -1,3 +1,8 @@
+# ── SSL certificates (NEVER commit private keys to git) ────────────────────
+ssl/private.key
+ssl/*.key
+ssl/*.pem
+
 # ── Secrets & environment ──────────────────────────────────────────
 .env.production
 .env.local
