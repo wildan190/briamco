@@ -71,6 +71,28 @@ retry_network() {
   return "$status"
 }
 echo 'Downloading runtime images sequentially...'
+# Guard: Strapi admin-panel build needs ~700–900 MB heap and will OOM-kill on a
+# 1 GB VPS if no swap is available. Abort early with a clear message rather than
+# wasting 30 s × 3 retries on a doomed build.
+swap_total=$(awk '/SwapTotal/ {print $2}' /proc/meminfo 2>/dev/null || echo 0)
+if [ "${swap_total:-0}" -lt 1048576 ]; then
+  cat >&2 <<'MSG'
+
+ERROR: No swap (or less than 1 GB) detected on this VPS.
+The Strapi admin-panel build requires ~900 MB of memory, which exceeds the
+1 GB physical RAM of this server.  Add a 2 GB swapfile first:
+
+  fallocate -l 2G /swapfile
+  chmod 600 /swapfile
+  mkswap /swapfile
+  swapon /swapfile
+  echo '/swapfile none swap sw 0 0' >> /etc/fstab
+  sysctl vm.swappiness=10
+
+Then re-run ./deploy.sh.
+MSG
+  exit 1
+fi
 for image in postgres:16-alpine nginx:stable-alpine certbot/certbot:latest; do
   retry_network docker pull "$image"
 done
