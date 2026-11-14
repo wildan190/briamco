@@ -88,4 +88,3 @@ jobs:
             cd "$DEPLOY_DIR"
             git pull origin main
             ./deploy.sh
-
