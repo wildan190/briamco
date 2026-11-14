@@ -70,7 +70,7 @@ jobs:
       - name: Execute remote deploy script via SSH
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.VPS_HOST || '163.227.96.70' }}
+          host: ${{ secrets.VPS_HOST || '202.155.137.226' }}
           username: ${{ secrets.VPS_USER || 'root' }}
           key: ${{ secrets.VPS_SSH_KEY }}
           port: ${{ secrets.VPS_PORT || 22 }}
