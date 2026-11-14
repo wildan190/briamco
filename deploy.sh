@@ -118,44 +118,11 @@ retry_network() {
   echo 'Download/build failed after 3 attempts. Check VPS access to Docker Hub and npm. No database volumes were removed.' >&2
   return "$status"
 }
-echo 'Downloading runtime images sequentially...'
+echo 'Pulling production images from registry (no heavy building on VPS)...'
 for image in postgres:16-alpine nginx:stable-alpine certbot/certbot:latest; do
   retry_network docker pull "$image"
 done
-
-# ── Pre-build Strapi admin panel outside Docker BuildKit ──────────────────────
-# Docker BuildKit confines each build step inside a cgroup-limited container
-# (typically ~1 GB) even when the host has more RAM. Strapi 5's Vite bundler
-# peaks at ~1.2 GB, which exceeds that limit and OOM-kills the build.
-#
-# Fix: run the expensive build step in a plain `docker run` with --memory=0
-# (no cgroup limit), write the result into the host project directory, then let
-# the Dockerfile just COPY the pre-built ./build/ folder — which is cheap.
-echo 'Pre-building Strapi admin panel (unrestricted docker run, no cgroup limit)...'
-docker run --rm \
-  --memory=0 --memory-swap=0 \
-  -v "${PWD}/briamco-strapi:/workspace" \
-  -w /workspace \
-  -e NODE_ENV=production \
-  -e "PUBLIC_URL=${PUBLIC_URL}" \
-  -e "CLIENT_URL=${PUBLIC_URL}" \
-  -e "STRAPI_ADMIN_BACKEND_URL=${PUBLIC_URL}" \
-  -e STRAPI_TELEMETRY_DISABLED=true \
-  -e "NODE_OPTIONS=--max-old-space-size=1536" \
-  node:22-bookworm-slim \
-  bash -ec '
-    apt-get update -qq
-    apt-get install -y -q --no-install-recommends python3 make g++ libvips-dev
-    npm ci --legacy-peer-deps --include=optional --no-audit --no-fund
-    rm -f tsconfig.json
-    npm run build
-    rm -rf node_modules
-  '
-
-echo 'Building production Strapi image (pre-built admin panel is COPYed in, no bundler runs inside Docker)...'
-retry_network "${DC[@]}" build --pull strapi
-echo 'Building production frontend image...'
-retry_network "${DC[@]}" build --pull frontend
+retry_network "${DC[@]}" pull strapi frontend
 if [[ -n $IMPORT_DIR ]]; then
   [[ -s $IMPORT_DIR/database.dump && -s $IMPORT_DIR/uploads.tar.gz ]] || { echo 'Import requires database.dump and uploads.tar.gz.' >&2; exit 1; }
   # Never overwrite an initialized database, including databases containing enquiries.

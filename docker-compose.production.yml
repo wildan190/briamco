@@ -16,6 +16,7 @@ services:
       retries: 10
     networks: [database]
   strapi:
+    image: ghcr.io/wildan190/briamco-strapi:latest
     build:
       context: ./briamco-strapi
       dockerfile: Dockerfile.production
@@ -54,6 +55,7 @@ services:
       retries: 20
     networks: [database, app]
   frontend:
+    image: ghcr.io/wildan190/briamco-frontend:latest
     build:
       context: ./web-briamco
       args:

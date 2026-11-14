@@ -2,7 +2,26 @@
 
 Target: VPS `163.227.96.70`, domain `subs.sicepot.com`.
 
-## Persiapan satu kali
+## Arsitektur Build & CI/CD (GitHub Actions)
+
+Build Strapi dan Frontend dilakukan secara otomatis oleh **GitHub Actions** (16 GB RAM) sehingga **VPS 1-2 GB tidak lagi melakukan kompilasi berat**.
+Image Docker disimpan di GitHub Container Registry (`ghcr.io/wildan190/...`), dan VPS hanya bertugas mengunduh (*pull*) image tersebut.
+
+### Konfigurasi GitHub Repository Secrets (Untuk Full Auto-Deploy via SSH)
+
+Di repo GitHub (`https://github.com/wildan190/briamco/settings/secrets/actions`), tambahkan secret berikut:
+1. `VPS_HOST` : `163.227.96.70`
+2. `VPS_USER` : `root` (atau username SSH Anda)
+3. `VPS_SSH_KEY` : Private SSH key (`id_rsa` / `id_ed25519`) yang memiliki akses login ke VPS
+4. *(Opsional)* `VPS_PORT` : `22` (jika memakai port non-standar)
+
+Setelah secret diisi, setiap Anda menjalankan `git push origin main`:
+- GitHub Actions otomatis mem-build image Strapi dan Frontend.
+- Menghubungi VPS via SSH, melakukan `git pull`, dan menjalankan `./deploy.sh` secara otomatis.
+
+*(Catatan: Jika `VPS_SSH_KEY` belum diset, GitHub Actions tetap akan membangun & mengunggah image ke GHCR. Anda cukup mengetik `./deploy.sh` di VPS untuk menarik image terbaru tanpa build lokal).*
+
+## Persiapan satu kali di VPS
 
 1. Pasang Docker Engine beserta plugin Docker Compose (v2 dengan dukungan `up --wait`), `openssl`, dan `curl` di VPS. Panduan resmi Docker: https://docs.docker.com/engine/install/ubuntu/
 2. **[WAJIB untuk VPS 1 GB]** Aktifkan swap 2 GB agar build Strapi tidak OOM:
