@@ -167,8 +167,14 @@ if [[ $USE_CF_SSL == false ]]; then
   "${DC[@]}" up -d --pull never certificate-renewal
 fi
 # Verify the public endpoints through this host, independent of DNS caching.
-curl --fail --silent --show-error --resolve "$DOMAIN:443:127.0.0.1" "https://$DOMAIN/_health" -o /dev/null
-curl --fail --silent --show-error --resolve "$DOMAIN:443:127.0.0.1" "https://$DOMAIN/" -o /dev/null
-curl --fail --silent --show-error --resolve "$DOMAIN:443:127.0.0.1" "https://$DOMAIN/api/website-content?locale=en" -o /dev/null
+curl_opts=(--fail --silent --show-error --resolve "$DOMAIN:443:127.0.0.1")
+if [[ $USE_CF_SSL == true ]]; then
+  # Cloudflare Origin Certificates are signed by Cloudflare's private CA,
+  # which is verified by Cloudflare Edge proxies rather than host root CAs.
+  curl_opts+=(-k)
+fi
+curl "${curl_opts[@]}" "https://$DOMAIN/_health" -o /dev/null
+curl "${curl_opts[@]}" "https://$DOMAIN/" -o /dev/null
+curl "${curl_opts[@]}" "https://$DOMAIN/api/website-content?locale=en" -o /dev/null
 printf '\nDeployment ready.\nWebsite: %s\nStrapi admin: %s/admin\n' "$PUBLIC_URL" "$PUBLIC_URL"
 echo 'On a new database, create your first admin account in /admin. Existing imported admin accounts keep their passwords.'
