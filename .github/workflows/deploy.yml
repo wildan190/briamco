@@ -65,7 +65,6 @@ jobs:
     name: Deploy to VPS
     needs: build-and-push
     runs-on: ubuntu-latest
-    if: "${{ secrets.VPS_SSH_KEY != '' }}"
     steps:
       - name: Execute remote deploy script via SSH
         uses: appleboy/ssh-action@v1.0.3
